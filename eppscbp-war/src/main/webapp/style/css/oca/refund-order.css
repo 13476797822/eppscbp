@@ -1,0 +1,271 @@
+@import "plugIncss/pagination.css";
+@import "plugIncss/select.css";
+@import "plugIncss/dialog.css";
+body{
+    background-color: #F2F2F2;;
+}
+.main{
+    width: 1134px;
+    padding: 28px 28px 46px 28px;
+    margin: 15px auto 0 auto;
+    background-color: #ffffff;
+}
+.main-criteria{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.main-criteria .criteria-list-item{
+    width: 390px;
+    float: left;
+    display: inline;
+    margin-bottom: 20px;
+}
+.main-criteria .criteria-list-item .query-btn{
+    width: 63px;
+    height: 30px;
+    float: right;
+    display: inline;
+    line-height: 30px;
+    text-align: center;
+    color: #FF9C00;
+    border-radius: 4px;
+    border: 1px solid #FF9C00;
+    cursor: pointer;
+}
+.main-criteria .criteria-list-item .queryfirest{
+    background-color: #FF9C00;
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+
+.main-criteria .nth03{
+    width: 354px;
+}
+.main-criteria .nth03 .label{
+    width: 85px;
+}
+.main-criteria .label{
+    width: 98px;
+    line-height: 32px;
+    float: left;
+    display: inline;
+    color: #333333;
+    font-size: 14px;
+    text-align: right;
+}
+.main-criteria .inputbox{
+    width: 260px;
+    height: 32px;
+    float: left;
+    display: inline;
+}
+.main-criteria .inputbox input{
+    width: 268px;
+    height: 30px;
+    padding-left: 0;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    outline: none;
+}
+
+.main-criteria .inputbox{
+    width: 268px;
+}
+.main-criteria .inputlsit{
+    width: 270px;
+}
+.main-criteria .inputlsit input{
+    width: 126px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+    background-image: url('../../images/oca/data-ico.png');
+    background-size: 14px 12px;
+    background-position: 102px 9px;
+    background-repeat: no-repeat;
+
+}
+.main-criteria .inputlsit .inputlater{
+    float: right;
+}
+
+
+.reminder-box{
+    clear: both;
+    padding: 8px 0;
+    position: relative;
+    height: 35px;
+
+}
+.reminder-box .reminder{
+    
+    height: 30px;
+    padding-left: 24px;
+    background-repeat: no-repeat;
+    line-height: 30px;
+    color: #FF9C00;
+    background-image: url('../img/tip-ico.png');
+    background-position: 0 8px;
+    background-size: 14px 14px;
+}
+.reminder-box .export{
+    font-size: 14px;
+    color: #1890FF;
+    position: absolute;
+    text-align: right;
+    width: 48px;
+    height: 28px;
+    top: 12px;
+    right: 0px;
+    cursor: pointer;
+    line-height: 28px;
+    background-image: url('../../images/oca/export-ico.png');
+    background-position: 0 7px;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+}
+
+
+/*****查询列表公共样式[[******/
+.query-box-list{
+    position: relative;
+}
+#manage-table{
+    overflow: hidden;
+    /*overflow-x: scroll;*/
+    background: #FFFFFF;
+    box-shadow: 4px 0 4px 0 rgba(0,0,0,0.05);
+}
+#manage-table .manage-header{
+    height: 47px;
+    background-color: #F5F9FD;
+    border-bottom: 1px solid #E8E8E8;
+    width: 2127px;
+}
+#manage-table .manage-list{
+    width: 2127px;
+    border-bottom: 1px solid #E8E8E8;
+    height: 47px;
+
+}
+#manage-table .th{
+    float: left;
+    display: inline;
+    color: #1F2D3D;
+    font-size: 14px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.manage-list .td{
+    float: left;
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#manage-table .thitem01{
+    width: 28px;
+}
+#manage-table .manage-list .thitem03{
+    color: #3399FF;
+}
+#manage-table .thitem02{
+    width: 75px;
+}
+#manage-table .thitem03{
+    width: 200px;
+}
+#manage-table .thitem04{
+    width: 320px;
+}
+#manage-table .thitem05{
+    width: 145px;
+}
+#manage-table .thitem06{
+    width: 160px;
+}
+#manage-table .thitem07{
+    width: 190px;
+}
+#manage-table .thitem08{
+    width: 190px;
+}
+#manage-table .thitem09{
+    width: 160px;
+}
+#manage-table .thitem10{
+    width: 95px;
+}
+#manage-table .thitem10{
+    width: 148px;
+}
+#manage-table .thitem11{
+    width: 148px;
+}
+
+#manage-table .operation{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 148px;
+    box-shadow: -4px 0 4px 0 rgba(0,0,0,0.05);
+}
+#manage-table .operation .operation-th{
+    width: 148px;
+    height: 47px;
+    background-color: #F5F9FD;
+    color: #1F2D3D;
+    font-size: 14px;
+    line-height: 47px;
+    text-align: center;
+    border-bottom: 1px solid #E8E8E8;
+}
+#manage-table .operation .operation-item{
+    width: 148px;
+    height: 47px;
+    color: #666666;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 47px;
+    text-align: center;
+    border-bottom: 1px solid #E8E8E8;
+    cursor: pointer;
+    color: #3399FF ;
+}
+.g-row.wait-wrap {
+    text-align: center;
+    padding: 150px 0 228px 422px;
+  }
+  
+  .g-row.wait-wrap .desc{
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+  .g-row.wait-wrap .empty{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    
+  }
+
+/*****查询列表公共样式[[******/
+
+.footer{
+    height: 100px;
+    width: 100%;
+    clear: both;
+}

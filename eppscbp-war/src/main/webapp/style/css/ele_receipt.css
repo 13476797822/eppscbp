@@ -1,0 +1,217 @@
+.bg-fff{
+    background-color: #fff;
+}
+.receipt-main-content{
+    width: 990px;
+    margin: 10px auto;
+    font-family: "microsoft yahei";
+}
+.receipt-main-content .module-title{
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 1px solid #ececec;
+}
+.receipt-main-content .module-title i{
+    display: inline-block;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: baseline;
+    border-left: 3px solid #ccc;
+}
+.receipt-main-content .module-info{
+    padding-left: 25px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #666;
+}
+.receipt-main-content .module-info i{
+    display: inline-block;
+    position: absolute;
+    margin: 12px 0 0 -25px;
+}
+.receipt-main-content .module{
+    border: 1px solid #ececec;
+    padding: 35px;
+    text-align: center;
+}
+.receipt-main-content .btn-content{
+    width: 310px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+.receipt-main-content .btn{
+    display: inline-block;
+    width:140px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    background: #4ca6ff;
+    color: #fff;
+    border: 1px solid #4ca6ff;
+    border-radius: 5px;
+}
+.receipt-main-content .btn.white{
+    color: #666;
+    border: 1px solid #ececec;
+    background-color: #fff;
+}
+.receipt-main-content .btn.disabled{
+    color: #ccc;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    cursor: not-allowed;
+}
+.receipt-main-content .retry{
+    color: #39f;
+}
+.ml20{
+    margin-left: 20px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.f14{
+    font-size: 14px;
+}
+.f16{
+    font-size: 16px;
+}
+.c666{
+    color: #666;
+}
+#fillEmail{
+    font-family: "microsoft yahei";
+}
+#fillEmail .com_win_box .info_email {
+    padding: 50px 0 60px 60px;
+}
+#fillEmail .input_mod{
+    width: 238px;
+    height: 20px;
+    padding: 4px 8px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: normal;
+    line-height: 14px\0;
+    border: 1px solid #ccc;
+}
+#fillEmail .btn{
+    margin-left: 74px;
+    width: 100px;
+    border: 1px solid #39f;overflow: hidden;
+}
+#fillEmail .btn.disabled{
+    color: #ccc;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    cursor: not-allowed;
+}
+#fillEmail .red{
+    color: #f55;
+    margin-left: 70px;
+}
+#fillEmail .row_link{
+    line-height: 40px;
+    overflow: hidden;
+}
+.com_win .close{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 24px;
+    color: #666;
+    cursor: pointer;
+}
+.com_win .close:hover{
+    color: #666;
+}
+/*Í¼±ê icon*/
+.icon_success_16{
+    float: left;
+    display: inline;
+    width: 16px;
+    height: 16px;
+    margin-top: 7px;
+    background: url(../images/module.sprite.png) no-repeat -150px 0;
+    overflow: hidden;
+}
+.icon_tips_16{
+    float: left;
+    display: inline;
+    width: 16px;
+    height: 16px;
+    margin-top: 7px;
+    background: url(../images/module.sprite.png) no-repeat -134px -16px;
+    overflow: hidden;
+}
+.icon_success_24{
+    float: left;
+    display: inline;
+    width: 24px;
+    height: 24px;
+    background: url(../images/module.sprite.png) no-repeat -150px -32px;
+    overflow: hidden;
+}
+.icon_success_32{
+    float: left;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: -42px;
+    background: url(../images/module.sprite.png) no-repeat -180px 0;
+    overflow: hidden;
+}
+.icon_error_32{
+    float: left;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: -42px;
+    background: url(../images/module.sprite.png) no-repeat -220px 0;
+    overflow: hidden;
+}
+.icon_sigh_32{
+    float: left;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: -42px;
+    background: url(../images/module.sprite.png) no-repeat -297px 0;
+    overflow: hidden;
+}
+.icon_sigh_16{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/module.sprite.png) no-repeat -150px -16px;
+    overflow: hidden;
+
+}
+.icon_z{
+    float: left;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: -42px;
+    background: url(../images/module.sprite.png) no-repeat -260px 0;
+    overflow: hidden;
+}
+.icon_query_24{
+    float: left;
+    display: inline;
+    width: 24px;
+    height: 24px;
+    background: url(../images/module.sprite.png) no-repeat -180px -32px;
+    overflow: hidden;
+}

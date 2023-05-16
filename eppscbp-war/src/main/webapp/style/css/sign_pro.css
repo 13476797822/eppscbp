@@ -1,0 +1,36 @@
+/*签约产品详情*/
+.apply_success{width: 1190px;margin: 10px auto;border:1px solid #ececec;min-height: 630px;}
+.pro_name{height: 50px;background: #f8f8f8;border-bottom: 1px solid #ececec;color:#333;font-size: 16px;line-height: 50px;}
+.orange{display: block;background: #ffab19;width: 4px;height: 14px;margin:18px 11px 0px 14px;}
+.pro_message{padding-top: 50px;padding-bottom: 27px;}
+.pro_message ul li{margin-bottom: 22px;}
+.bianhao{display: block;color:#333;font-size: 14px;}
+.msgmenu{display: block;width: 501px;text-align: right;color:#666;font-size: 14px;}
+.xiangguanxieyi{padding-top: 45px;width: 945px;margin: 0 auto;border-top: 1px dashed #dedede;padding-bottom: 48px;}
+.xieyi{display: block;width: 378px;text-align: right;color: #666;font-size: 14px;}
+.eachxie{color:#3399ff;margin-top: 1px;cursor: pointer;font-size: 14px;}
+/*对话框myDialog*/
+.ui-dialog-wrap {color: #333; position: absolute; left: 50%; top: 45%; transition: top .2s ease-in-out;}
+.ui-dialog-mask {width: 100%; height:100%; position: fixed; _position: absolute; left: 0; top: 0; background:#000; display: none;}
+
+.ui-dialog-outer {padding: 5px; filter:alpha(opacity=20); background:#000; background:rgba(0,0,0,0.2) !important; zoom: 1;}
+.ui-dialog-inner {font: normal 14px/1.5 arial simsun; position: relative;}
+
+.ui-dialog-head {background: #f2f2f2; border-bottom: 1px solid #e0e0e0; position: relative;}
+.ui-dialog-cont {background: #fff;font-family:Microsoft Yahei;height: 450px;overflow:scroll;}
+.ui-dialog-foot {padding: 10px; background: #fff; text-align: right; font-size: 0; word-spacing: -1px;}
+
+.ui-dialog-title {padding: 0 25px 0 10px; height: 40px; color: #333; font: bold 14px/40px arial simsun; overflow: hidden;}
+.ui-dialog-close {width: 12px; height: 12px; color: #666; text-align: center; font: bold 14px/12px simsun; text-decoration: none; outline: none; position: absolute; top: 14px; right: 10px; cursor: pointer;}
+.ui-dialog-close:hover {color: #666;text-decoration: none;}
+.dialog_del{padding:47px 94px 33px 94px;position:relative;}
+.dialog_del i{background:url(../images/empty-tip.jpg) no-repeat;width:32px;height:32px;position:absolute;left:127px;top:47px;}
+.dialog_del h1{font-size:16px;color:#333;text-align: center;padding-left: 30px;}
+.dialog_del .del_btn{margin-top:50px;}
+.dialog_del .del_btn a{text-align:center;float:left;font-size:16px;font-weight:bold;border-radius:5px;}
+.dialog_del .del_btn a:hover{text-decoration:none;}
+.dialog_del .del_btn .confirm{width:96px;height:40px;line-height:40px;color:#fff;background:#ffab19;margin-left:20px;}
+.dialog_del .del_btn .cancel{width:94px;height:38px;line-height:38px;color:#666;background:#fff;border:1px solid #ccc;margin-left: 20px;}
+
+/*协议内样式*/
+.xiaoerzi{display: block;width: 100px;height: 100px;background: #ff0;}

@@ -1,0 +1,73 @@
+/*立即签约*/
+.apply_success{width: 1190px;margin: 10px auto;border:1px solid #ececec;min-height: 630px;}
+.pro_name{height: 50px;background: #f8f8f8;border-bottom: 1px solid #ececec;color:#333;font-size: 16px;line-height: 50px;}
+.orange{display: block;background: #ffab19;width: 4px;height: 14px;margin:18px 11px 0px 14px;}
+.imme_form{padding:40px;}
+.basic_msg{font-size: 16px;color:#333333;height: 40px;line-height: 40px;border-bottom: 1px dashed #dedede;margin-bottom: 22px;}
+.eachtip{width: 1106px;margin-top: 20px;position: relative;}
+.left_menu{width: 424px;text-align: right;font-size: 14px;color:#666666;}
+.right_menu{height: 21px;line-height: 21px;color:#333333;font-size: 14px;}
+.merch_intro{width: 255px;height: 120px;resize:none;outline: none;}
+.merch_intro:hover{outline: none;}
+.cominput{width: 256px;height: 30px;border:1px solid #cccccc;margin-right: 10px;font-size: 14px;color: #333333;line-height: 30px;outline:none;}
+.mt8{margin-top: 8px;}
+.ml425{margin-left: 425px;display: none;background:none;}
+.comsel{font-size: 14px;color: #333333;}
+.co_experience{margin-right: 8px;display: none;}
+.radioyes{background: url(../images/radio-on.jpg) center center no-repeat;width: 15px;height: 15px;margin-top: 9px;}
+.radiono{background: url(../images/radiono.png) center center no-repeat;width: 15px;height: 15px;margin-top: 9px;}
+.radiono:hover{background: url(../images/radioboxhover.png) center center no-repeat;width: 15px;height: 15px;margin-top: 9px;}
+.hexperience{margin:7px 40px 0px 8px;font-size: 14px;color: #333;}
+.noexperience{margin:7px 40px 0px 8px;font-size: 14px;color: #333;}
+.pingmi{color:#333333;}
+.basic_content{margin-bottom: 24px;}
+.fuwuxieyi{color:#3399ff;}
+.oheight{height: 8px;}
+.submitbtn{color: #fff;background:#ffb433;width: 100px;height:40px;border-radius: 3px;line-height: 40px;text-align: center;border: none;font-size: 16px;}
+.submitbtn:hover{cursor: pointer;}
+.agreeboxyes{background: url(../images/checkboxyes.png) 0px 0px no-repeat;height: 15px;margin-top: 9px;padding-left: 22px;line-height: 15px;}
+.agreeboxno{background: url(../images/checkboxno.png) 0px 0px no-repeat;height: 15px;margin-top: 9px;padding-left: 22px;line-height: 15px;}
+.agreefile{display: none;}
+.tip{color:#ff5555;font-size:12px;padding-left: 423px;display: none;}
+.mt9{margin-top: 9px;}
+.hide{display: none;}
+.place-holder{position: absolute;top:7px;left:434px;z-index: -1000;color:#919393;display: none;}
+.disabled-bg{background: #ebebe4;}
+/*申请成功*/
+.apply_success{width: 1190px;margin: 10px auto;border:1px solid #ececec;position: relative;}
+.pro_name{height: 50px;background: #f8f8f8;border-bottom: 1px solid #ececec;color:#333;font-size: 16px;line-height: 50px;}
+.orange{display: block;background: #ffab19;width: 4px;height: 14px;margin:18px 11px 0px 14px;}
+.message{padding: 170px 0px 220px 0px;}
+.messagebox{margin-left: 329px;padding-left: 42px;background: url(../images/apply.png) 0px 0px no-repeat;margin-top: 130px;margin-bottom: 130px;}
+.applyok{height: 34px;line-height: 34px;font-size: 16px;color: #333;}
+.apply_tip{font-size:12px;color:#999;margin-top: 10px;}
+.apply_cho{color: #333;font-size: 12px;margin-top: 20px;}
+.apply_cho a{color: #3399ff;font-size: 12px;}
+.imme_form {padding: 40px;}
+.loading{z-index:99999;position: absolute;width: 100%;height:100%;background: #000;opacity: 0.6;top:0px;display: none;}
+.wid548{width: 548px;}
+/*申请失败*/
+.messageboxsec{margin-left: 329px;padding-left: 42px;background: url(../images/apply_fail.png) 0px 0px no-repeat;margin-top: 130px;margin-bottom: 130px;}
+
+/*对话框myDialog*/
+.ui-dialog-wrap {color: #333; position: absolute; left: 50%; top: 45%; transition: top .2s ease-in-out;}
+.ui-dialog-mask {width: 100%; height:100%; position: fixed; _position: absolute; left: 0; top: 0; background:#000; display: none;}
+
+.ui-dialog-outer {padding: 5px; filter:alpha(opacity=20); background:#000; background:rgba(0,0,0,0.2) !important; zoom: 1;}
+.ui-dialog-inner {font: normal 14px/1.5 arial simsun; position: relative;}
+
+.ui-dialog-head {background: #f2f2f2; border-bottom: 1px solid #e0e0e0; position: relative;}
+.ui-dialog-cont {background: #fff;font-family:Microsoft Yahei;overflow: scroll;height: 460px;padding:24px;}
+.ui-dialog-foot {padding: 10px; background: #fff; text-align: right; font-size: 0; word-spacing: -1px;}
+
+.ui-dialog-title {padding: 0 25px 0 10px; height: 40px; color: #333; font: bold 14px/40px arial simsun; overflow: hidden;}
+.ui-dialog-close {width: 12px; height: 12px; color: #666; text-align: center; font: bold 14px/12px simsun; text-decoration: none; outline: none; position: absolute; top: 14px; right: 10px; cursor: pointer;}
+.ui-dialog-close:hover {color: #666;text-decoration: none;}
+.dialog_del{padding:47px 94px 33px 94px;position:relative;}
+.dialog_del i{background:url(../images/empty-tip.jpg) no-repeat;width:32px;height:32px;position:absolute;left:127px;top:47px;}
+.dialog_del h1{font-size:16px;color:#333;text-align: center;padding-left: 30px;}
+.dialog_del .del_btn{margin-top:50px;}
+.dialog_del .del_btn a{text-align:center;float:left;font-size:16px;font-weight:bold;border-radius:5px;}
+.dialog_del .del_btn a:hover{text-decoration:none;}
+.dialog_del .del_btn .confirm{width:96px;height:40px;line-height:40px;color:#fff;background:#ffab19;margin-left:20px;}
+.dialog_del .del_btn .cancel{width:94px;height:38px;line-height:38px;color:#666;background:#fff;border:1px solid #ccc;margin-left: 20px;}

@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url(common.css);
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+
+.budget-main-content-new{ width:1187px; margin:20px auto 30px auto; border:1px solid #eee}
+.details-box { padding:29px; clear:both}
+
+/***状太导航[[***/
+.details-box .details-tit{ height:18px; font-size:16px; color:#333; line-height:18px; padding-bottom:18px; border-bottom:1px solid #eee}
+.details-box .tit{ float:left; display:inline; padding-right:10px;}
+.details-box .tit-txt{ float: left; display:inline}
+.details-box .tit .line{ float:left; margin:4px 0 0 10px; border-left:1px solid #999; height:10px;}
+.details-box .state{ color:#666}
+/***]]状太导航***/
+
+/***订单相关描述[[***/
+.details-box .details-describe{ clear:both; padding-top:9px}
+.details-box .details-describe p{ font-size:14px; line-height:32px; color:#666}
+/***]]订单相关描述***/
+
+/***订单进度[[***/
+.details-box .order-schedule-list{ position:relative; height:55px; padding-top:30px; border-bottom:2px solid #ddd;}
+.order-schedule-list .order-schedule-tit{ width:30px; height:60px; line-height:30px; text-align:center; color:#fff; font-size:18px; float:left; display:inline; background:url(../images/describe-ico.png) no-repeat -30px -60px}
+.order-schedule-list .order-schedule-ul li.prev .order-schedule-tit{ background-position:-30px 0}
+.order-schedule-list .order-schedule-ul li.on .order-schedule-tit{ background-position:0 0}
+.order-schedule-list .order-schedule-ul li.on .order-schedule-tit.fail{ background-position:0 -60px}
+.order-schedule-list .order-schedule-ul li.on .order-schedule-text{ color:#333}
+.details-box .order-schedule-text{ padding-left:39px; color:#999;}
+.details-box .order-schedule-theme{ font-size:16px;  line-height:24px; }
+.details-box .order-schedule-ul li{ float:left; width:297px; position:relative }
+.details-box .order-schedule-ul li.nth-child3{ width:280px}
+.details-box .order-schedule-ul.audit-failure-ul li{ width:381px;}
+.details-box .order-schedule-time{ font-size:12px; line-height:18px;}
+.details-box .order-schedule-ul{ position:absolute; z-index:2; bottom:-9px; padding-left:191px}
+.details-box .order-schedule-ul.audit-failure-ul{ padding-left:297px}
+
+.details-box .question-ico{ width:16px; height:16px; position: absolute; cursor:pointer; z-index:10; left:115px; top:5px; background:url(../images/icon-warn.png) no-repeat}
+.details-box  .bubble{ position:absolute; z-index:101; width:232px; left:-32px; margin-top:-10px;  background-color:#fff}
+.details-box .bubble-ico{ width:12px; height:7px; display:block; z-index:102; position:absolute; background:url(../images/icon_tip_i.png) no-repeat;
+ top:0; left:150px; margin-top:-6px; }
+.details-box .bubble-txt{ width:212px; color:#999; line-height:18px; border:1px solid #ccc;border-radius:2px; padding:10px; background-color:#fff; font-size:12px; text-align:justify; text-justify:inter-ideograph}
+.order-schedule-theme.lin-height{ line-height:32px;}
+.details-box .order-schedule-line{ width:283px; height:0; border-bottom:2px solid #b2d9ff;z-index: 80; position:absolute; bottom: 7px; left: 21px;}
+.details-box .audit-failure-ul .order-schedule-line{ width:367px}
+/***]]订单进度***/
+
+/***描述[[***/
+.details-box .order-many{ clear:both; padding-top:49px;}
+.order-many .order-many-tit{ background-color:#dce9f5;}
+.order-many .order-many-tit li{ padding:6px 0; height:18px; color:#666; font-size:14px; line-height:18px; text-align:center; width:49.5%; float:left; display:inline}
+.order-many .order-many-list{ border:1px solid #ededed; padding:25px 0;}
+.order-many .order-many-list li{ height:18px; font-size:14px; line-height:18px; color:#333; text-align:center; width:49.5%; float:left; display:inline}
+
+
+.details-box .order-manys-table{ clear:both; padding-top:38px;}
+.order-manys-table .order-manys-table-tit{ background-color:#dce9f5; padding-left:38px;}
+.order-manys-table .order-manys-table-tit li{ padding:6px 0 6px 20px; text-align:left; height:18px; color:#666; font-size:14px; line-height:18px;  float:left; display:inline}
+.order-manys-table  li.nth-child1{ width:145px;}
+.order-manys-table  li.nth-child2{ width:145px;}
+.order-manys-table  li.nth-child3{ width:145px;}
+.order-manys-table  li.nth-child4{ width:88px;}
+.order-manys-table  li.nth-child5{ width:145px;}
+.order-manys-table  li.nth-child6{ width:145px;}
+.order-manys-table  li.nth-child7{ width:130px;}
+.order-manys-table .order-manys-table-list{ border:1px solid #ededed; padding:25px 0 25px 38px;}
+.order-manys-table .order-manys-table-list li{ height:18px; font-size:14px; padding-left:20px;line-height:18px; color:#333; text-align: left;  float:left; display:inline}
+
+/***]]描述***/
+
+
+
+

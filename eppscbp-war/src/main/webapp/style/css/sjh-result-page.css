@@ -1,0 +1,57 @@
+@import "sjh-apply-index.css";
+a{outline: none;}
+.batch-payment .content .title{
+    margin:10px 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+.batch-payment .content .title font{
+    font-size: 12px;
+    font-weight: normal;
+    color: #999999;
+    margin-left: 15px;
+}
+.content .result-wrap .statu{
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+}
+.content .result-wrap{margin-top: 60px;}
+.content .result-wrap .statu i.icon{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.content .result-wrap .statu i.success{
+    background: url("../images/toast_success32.png") no-repeat center;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.content .result-wrap ul{margin-top: 33px;}
+.content .result-wrap ul li{
+    font-size: 14px;
+    color: #000000;
+    padding: 0 0 5px 340px;
+}
+.content .result-wrap .btn-wrap{
+    margin: 24px 0 0 340px;
+}
+.content .result-wrap .btn-wrap a{
+    float: left;
+    font-size: 14px;
+    color: #3399FF;
+}
+.content .result-wrap .btn-wrap .more{
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FFB433;
+    border-radius: 5px;
+}
+.content .result-wrap .btn-wrap .back{
+    margin: 10px 0 0 20px;
+}

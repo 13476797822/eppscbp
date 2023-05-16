@@ -1,0 +1,78 @@
+.ui-dialog-wrap {
+    color: #333;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transition: top .2s ease-in-out;
+}
+
+.ui-dialog-mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    _position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    display: none;
+    opacity: .4;
+}
+
+.ui-dialog-outer {
+    padding: 5px;
+    filter: alpha(opacity=20);
+    background: #000;
+    background: rgba(0, 0, 0, 0.2) !important;
+    zoom: 1;
+}
+
+.ui-dialog-inner {
+    font: normal 14px/1.5 arial simsun;
+    position: relative;
+}
+
+.ui-dialog-head {
+    background: #f2f2f2;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.ui-dialog-cont {
+    background: #fff;
+    font-family: Microsoft Yahei;
+}
+
+.ui-dialog-foot {
+    padding: 10px;
+    background: #fff;
+    text-align: right;
+    font-size: 0;
+    word-spacing: -1px;
+}
+
+.ui-dialog-title {
+    padding: 0 25px 0 10px;
+    height: 40px;
+    color: #333;
+    font: bold 14px/40px arial simsun;
+    overflow: hidden;
+}
+
+.ui-dialog-close {
+    width: 12px;
+    height: 12px;
+    color: #666;
+    text-align: center;
+    font: normal 14px/12px simsun;
+    text-decoration: none;
+    outline: none;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.ui-dialog-close:hover {
+    color: #666;
+    text-decoration: none;
+}

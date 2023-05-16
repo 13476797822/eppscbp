@@ -1,0 +1,111 @@
+@import "reset.css";
+.wrap {
+    width: 1188px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    font-family: "Microsoft Yahei";
+}
+
+.notic-wrap {
+    width: 1074px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #FFECCC;
+    position: relative;
+    margin: 44px auto 60px auto;
+}
+
+.left-box {
+    width: 114px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #FFECCC;
+    color: #FF8000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left-box i {
+    float: left;
+    width: 40px;
+    height: 30px;
+    background: url(../images/notic.png) no-repeat center;
+    transform: scale(0.45);
+    position: absolute;
+    top: 4px;
+    left: 3px;
+}
+
+.notic-wrap .notic-msg {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #FF8000;
+    text-indent: 114px;
+    white-space: nowrap;
+    position: relative;
+}
+.notic-bar{
+    position: absolute;
+    top: 0;
+}
+
+.channel-list {
+    width: 1074px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.channel-list li {
+    float: left;
+    width: 344px;
+    height: 100px;
+    margin: 0 20px 12px 0;
+    transition: all 0.6s;
+    position: relative;
+    overflow: hidden;
+}
+
+.channel-list li a,
+.channel-list li a img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.channel-list li:hover {
+    transform: scale(1.05);
+}
+
+.channel-list li.mr0 {
+    margin-right: 0;
+}
+
+.channel-list li a.wait {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.channel-list li.cur {
+    background-color: #000;
+    opacity: 0.15;
+}
+
+.channel-list li .mask {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.15;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    border-radius: 8px;
+}

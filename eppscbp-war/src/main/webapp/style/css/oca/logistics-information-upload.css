@@ -1,0 +1,484 @@
+@import "plugIncss/pagination.css";
+@import "plugIncss/select.css";
+@import "plugIncss/dialog.css";
+body{
+    background-color: #F2F2F2;;
+}
+.main{
+    width: 1134px;
+    padding: 28px 28px 46px 28px;
+    margin: 15px auto 0 auto;
+    background-color: #ffffff;
+}
+.main-criteria{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.main-criteria .criteria-list-item{
+    width: 390px;
+    float: left;
+    display: inline;
+    margin-bottom: 20px;
+}
+.main-criteria .criteria-list-item .query-btn{
+    width: 63px;
+    height: 30px;
+    float: right;
+    display: inline;
+    line-height: 30px;
+    text-align: center;
+    color: #FF9C00;
+    border-radius: 4px;
+    border: 1px solid #FF9C00;
+    cursor: pointer;
+}
+.main-criteria .criteria-list-item .queryfirest{
+    background-color: #FF9C00;
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+
+.main-criteria .nth03{
+    width: 354px;
+}
+.main-criteria .nth03 .label{
+    width: 83px;
+}
+.main-criteria .label{
+    width: 98px;
+    line-height: 32px;
+    float: left;
+    display: inline;
+    color: #333333;
+    font-size: 14px;
+    text-align: right;
+}
+.main-criteria .nthlaster{
+    float: right;
+    display: inline;
+}
+.main-criteria .inputbox{
+    width: 260px;
+    height: 32px;
+    float: left;
+    display: inline;
+}
+.main-criteria .inputbox input{
+    width: 268px;
+    height: 30px;
+    padding-left: 0;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    outline: none;
+}
+
+.main-criteria .inputbox{
+    width: 268px;
+}
+.main-criteria .inputlsit{
+    width: 270px;
+}
+.main-criteria .inputlsit input{
+    width: 126px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+    background-image: url('../../images/oca/data-ico.png');
+    background-size: 14px 12px;
+    background-position: 102px 9px;
+    background-repeat: no-repeat;
+
+}
+.main-criteria .inputlsit .inputlater{
+    float: right;
+}
+
+.reminder-box{
+    clear: both;
+    padding: 8px 0;
+    height: 30px;
+    padding: 8px 0;
+    position: relative;
+}
+
+.reminder-box .export{
+    font-size: 14px;
+    color: #1890FF;
+    position: absolute;
+    text-align: right;
+    width: 48px;
+    height: 28px;
+    top: 8px;
+    right: 0px;
+    cursor: pointer;
+    line-height: 28px;
+    background-image: url('../../images/oca/export-ico.png');
+    background-position: 0 7px;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+}
+.reminder-box .bulk-import{
+    font-size: 14px;
+    color: #1890FF;
+    position: absolute;
+    text-align: right;
+    width: 76px;
+    height: 28px;
+    top: 8px;
+    right: 72px;
+    cursor: pointer;
+    line-height: 28px;
+}
+.reminder-box .bulk-import::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 8px;
+    zoom: 1;
+    width: 14px;
+    height: 14px;
+    background-image: url('../../images/oca/export-ico.png');
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+
+}
+
+
+
+/*****查询列表公共样式[[******/
+.query-box-list{
+    position: relative;
+}
+#manage-table{
+    overflow: hidden;
+    /*overflow-x: scroll;*/
+    background: #FFFFFF;
+    box-shadow: 4px 0 4px 0 rgba(0,0,0,0.05);
+}
+#manage-table .manage-header{
+    height: 47px;
+    background-color: #F5F9FD;
+    border-bottom: 1px solid #E8E8E8;
+    width: 1867px;
+}
+#manage-table .manage-list{
+    width: 1867px;
+    border-bottom: 1px solid #E8E8E8;
+    height: 47px;
+
+}
+#manage-table .th{
+    float: left;
+    display: inline;
+    color: #1F2D3D;
+    font-size: 14px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.manage-list .td{
+	height: 47px;
+    float: left;
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    line-height: 47px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+#manage-table .thitem01{
+    width: 28px;
+}
+#manage-table .manage-list .thitem02{
+    /**color: #3399FF;*/
+}
+#manage-table .thitem02{
+    width: 80px;
+}
+#manage-table .thitem03{
+    width: 320px;
+}
+#manage-table .thitem04{
+    width: 180px;
+}
+#manage-table .thitem05{
+    width: 145px;
+}
+#manage-table .thitem06{
+    width: 145px;
+}
+#manage-table .thitem07{
+    width: 100px;
+}
+#manage-table .thitem08{
+    width: 120px;
+}
+#manage-table .thitem09{
+    width: 160px;
+}
+#manage-table .thitem10{
+    width: 95px;
+}
+#manage-table .thitem10{
+    width: 148px;
+}
+
+#manage-table .operation{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 148px;
+    box-shadow: -4px 0 4px 0 rgba(0,0,0,0.05);
+}
+#manage-table .operation .operation-th{
+    width: 148px;
+    height: 47px;
+    background-color: #F5F9FD;
+    color: #1F2D3D;
+    font-size: 14px;
+    line-height: 47px;
+    text-align: center;
+    border-bottom: 1px solid #E8E8E8;
+}
+#manage-table .operation .operation-item{
+    width: 148px;
+    height: 47px;
+    color: #666666;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 47px;
+    text-align: center;
+    border-bottom: 1px solid #E8E8E8;
+    cursor: pointer;
+    color: #3399FF ;
+}
+.g-row.wait-wrap {
+    text-align: center;
+    padding: 150px 0 228px 422px;
+  }
+  
+  .g-row.wait-wrap .desc{
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+  .g-row.wait-wrap .empty{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    
+  }
+
+/****文件导入[[****/
+.dialog-upload{
+    width: 530px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+.dialog-upload .title{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.dialog-upload .close{
+    position: absolute;
+    cursor: pointer;
+    right: 18px;
+    top: 13px;
+    width: 12px;
+    height: 12px;
+    background-image: url('../../images/oca/close-ico.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dialog-upload .upload-content{
+    width: 445px;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+.dialog-upload .label{
+    width: 70px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    display: inline;
+}
+.dialog-upload .fileshow{
+    width: 212px;
+    height: 34px;
+    border: 1px solid #CCCCCC;
+    float: left;
+    display: inline;
+    outline: none;
+    text-indent: 10px;
+    border-radius: 4px;
+}
+.dialog-upload .upload-select{
+    width: 72px;
+    height: 34px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333333;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    float: left;
+    margin-left: 16px;
+    display: inline;
+    line-height: 34px;
+    text-align: center;
+}
+.dialog-upload .download{
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #3399FF;
+    padding-left: 388px;
+    cursor: pointer;
+}
+.dialog-upload .pre-import{
+    width: 445px;
+    margin: 0 auto;
+}
+.dialog-upload .pre-title{
+    margin-top: 11px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #FF9D00;
+    position: relative;
+    padding-left: 21px;
+}
+.dialog-upload .pre-title::before{
+    content: '';
+    display: block;
+    zoom:1;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 14px;
+    height: 14px;
+    background-image: url('../../images/oca/tip-ico.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0px;
+}
+.dialog-upload .pre-heard{
+    margin: 6px auto 0 auto;
+    width: 445px;
+    height: 42px;
+    background-color: #F5F9FD;
+}
+.dialog-upload .pre-heard .list-item{
+    color: #1F2D3D;
+}
+.dialog-upload .pre-content-list .list-item{
+    color: #666666;
+}
+.dialog-upload .list-item{
+    width: 110px;
+    font-size: 14px;
+    float: left;
+    display: inline;
+    line-height: 42px;
+    text-align: center;
+}
+.dialog-upload .pre-content-list .import-download{
+    color: #3399FF;
+    cursor: pointer;
+}
+.dialog-upload .pre-content-list .noupload{
+    cursor: default;
+    color: #666666;
+}
+.dialog-upload .nth01{
+    width: 115px;
+}
+.dialog-hide .pre-import{
+    display: none;
+}
+.dialog-hide .uplod-btn{
+    padding-top: 30px;
+    
+}
+.uplod-btn{
+    padding-top: 3px;
+    padding-left: 118px;
+}
+.uplod-btn .btn{
+    width: 78px;
+    height: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    display: inline;
+    border: 1px solid #FF9D00;
+    border-radius: 4px;
+    margin-left: 20px;
+    color: #FF9D00;
+}
+.uplod-btn .preservbtn{
+    background-color: #FF9D00;
+    color: #ffffff;
+    opacity: 1;
+}
+.nobtn .preservbtn{
+    opacity: 0.5;
+}
+body .ui-dialog-cont{
+    background:none;
+}
+
+/****]]文件导入****/
+
+
+/***提交成功[[****/
+.dialog-success{
+    width: 135px;
+    height: 36px;
+    text-indent: 50px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.20);
+    border-radius: 4px;
+    line-height: 36px;
+    background-color: #ffffff;
+    font-size: 13px;
+    color: #666666;
+    background-image: url('../../images/oca/success-ico.png');
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 24px 10px;
+}
+/***]]提交成功***/
+
+
+
+
+/*****查询列表公共样式[[******/
+
+.footer{
+    height: 100px;
+    width: 100%;
+    clear: both;
+}

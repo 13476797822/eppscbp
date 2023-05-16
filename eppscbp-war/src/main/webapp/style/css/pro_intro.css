@@ -1,0 +1,110 @@
+/*签约中心首页*/
+.sign_center {
+	margin: 20px auto 0 auto;
+	width: 1188px;
+	border: 1px solid #ececec;
+}
+
+.search-result-wrap {
+	width: 888px;
+	margin-left: -1px;
+	border-left: 1px solid #ececec;
+	padding: 20px 40px;
+	min-height: 450px;
+}
+
+.menu-item {
+	font-size: 16px;
+	color: #666;
+	font-family: "Microsoft Yahei";
+	overflow: hidden;
+	height: 48px;
+	border-bottom: 1px solid #ececec;
+}
+
+.left-menu li a {
+	display: block;
+	height: 47px;
+	width: 137px;
+	font-size: 16px;
+	line-height: 47px;
+	position:relative;
+	z-index: 100;
+	padding-left: 82px;
+}
+.left-menu li a:hover{text-decoration: none;}
+.pro_allon{background: url(../images/prointroon.png) 40px 15px no-repeat;border-right: 1px solid #fff;color:#3398ff;}
+.pro_all{background: url(../images/prointro.png) 40px 15px no-repeat;	color: #666666;}
+.mysign{background: url(../images/access.png) 40px 15px no-repeat;	color: #666666;}
+.mysignon{background: url(../images/accesson.png) 40px 15px no-repeat;border-right: 1px solid #fff;color:#3398ff;}
+
+.my-pending-approve .left-menu {
+	position: relative;
+	right: -1px;
+	float: left;
+	width: 218px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.menu-item-txt {
+	margin-top: 16px;
+	float: left;
+	line-height: 18px;
+}
+
+.daozhangintro{
+	margin-top: 36px;
+}
+
+.daozhangintro h5{
+	font-size: 14px;
+	color:#333;
+	font-weight: bold;
+}
+
+.daozhangintro p{
+	font-size: 14px;
+	color:#333;
+	margin-top: 14px;
+}
+
+.protop{
+	padding: 20px 0;
+	border-bottom: 1px solid #ececec;
+}
+
+.lijiqian{width: 90px;height: 36px;line-height: 36px;text-align: center;background:#ffb433;color:#fff;border-radius:2px;}
+.lijiqian:hover{color:#fff;}
+.orange{width: 4px;height: 16px;background: #ffab19;margin-right: 10px;margin-top: 3px;}
+.proname{color:#333333;font-size: 16px;}
+.prodetail{padding-top: 32px;overflow:hidden;margin-top:42px;}
+.prodetail ul li{position: relative;}
+.prodetail ul li i{width: 28px;height: 28px;background: #bdbdbd;color:#fff;font-size: 14px;font-weight: bold;display: block;border-radius: 50%;text-align: center;line-height: 28px;margin-right: 28px;position: relative;}
+.prodetail ul li p{height: 28px;line-height: 28px;font-size: 14px;color:#333;}
+.dashborder{height: 39px;border-left: 1px dashed #c7c7c7;margin:9px 13px 9px 13px;}
+.prodetaillist{margin-top: -84px;}
+
+/*对话框myDialog*/
+.ui-dialog-wrap {color: #333; position: absolute; left: 50%; top: 45%; transition: top .2s ease-in-out;}
+.ui-dialog-mask {width: 100%; height:100%; position: fixed; _position: absolute; left: 0; top: 0; background:#000; display: none;}
+
+.ui-dialog-outer {padding: 5px; filter:alpha(opacity=20); background:#000; background:rgba(0,0,0,0.2) !important; zoom: 1;}
+.ui-dialog-inner {font: normal 14px/1.5 arial simsun; position: relative;}
+
+.ui-dialog-head {background: #f2f2f2; border-bottom: 1px solid #e0e0e0; position: relative;}
+.ui-dialog-cont {background: #fff;font-family:Microsoft Yahei;}
+.ui-dialog-foot {padding: 10px; background: #fff; text-align: right; font-size: 0; word-spacing: -1px;}
+
+.ui-dialog-title {padding: 0 25px 0 10px; height: 40px; color: #333; font: bold 14px/40px arial simsun; overflow: hidden;}
+.ui-dialog-close {width: 12px; height: 12px; color: #666; text-align: center; font: bold 14px/12px simsun; text-decoration: none; outline: none; position: absolute; top: 14px; right: 10px; cursor: pointer;}
+.ui-dialog-close:hover {color: #666;text-decoration: none;}
+.dialog_del{padding:47px 20px 33px 20px;position:relative;}
+.dialog_del i{background:url(../images/empty-tip.jpg) no-repeat;width:32px;height:32px;position:absolute;left:127px;top:47px;}
+.dialog_del h1{font-size:14px;color:#333;text-align: center;}
+.dialog_del .del_btn{margin-top:41px;padding-left: 77px;}
+.dialog_del .del_btn a{text-align:center;float:left;font-size:16px;font-weight:bold;border-radius:5px;}
+.dialog_del .del_btn a:hover{text-decoration:none;}
+.dialog_del .del_btn .confirm{width:96px;height:40px;line-height:40px;color:#fff;background:#ffab19;margin-left:80px;}
+.dialog_del .del_btn .confirmsec{width:96px;height:40px;line-height:40px;color:#fff;background:#ffab19;margin-left:28px;}
+.dialog_del .del_btn .cancel{width:94px;height:38px;line-height:38px;color:#666;background:#fff;border:1px solid #ccc;margin-left: 20px;}

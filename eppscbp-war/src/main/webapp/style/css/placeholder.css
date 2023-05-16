@@ -1,0 +1,13 @@
+.jr-placeholder {
+    display: inline-block;
+    position: relative;
+}
+.jr-placeholder .label-for-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    padding-left: 10px;
+    color: #666;
+    cursor: text;
+}

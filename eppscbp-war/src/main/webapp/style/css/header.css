@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.platform-header {
+    width: 100%;
+    min-width: 1190px;
+    height: 60px;
+    background: #F8F8F8;
+    margin-top: -20px;
+}
+.platform-header .platform-header-inner {
+    width: 1190px;
+    margin: 0 auto;
+    height: 60px;
+    /* overflow: hidden; */
+}
+.platform-header .platform-logo {
+    width: 220px;
+    float: left;
+    margin-top: 18px;
+}
+.platform-header .platform-logo .platform-name {
+    font-size: 20px;
+    color: #333;
+    line-height: 24px;
+    font-weight: bold;
+    
+}
+.platform-header .platform-nav {
+    float: left;
+}
+.platform-header .platform-nav .platform-nav-list {
+    height: 60px;
+}
+.platform-header .platform-nav .platform-nav-list .nav-item {
+    margin-right: 40px;
+    float: left;
+}
+.platform-header .platform-nav .platform-nav-list .nav-item a {
+    font-size: 14px;
+    color: #333;
+    line-height: 59px;
+    display: block;
+}
+.platform-header .platform-nav .platform-nav-list .nav-item a:hover {
+    color: #39f;
+}
+.platform-header .platform-nav .platform-nav-list .nav-item.on {
+    
+}
+.platform-header .platform-nav .platform-nav-list .nav-item.on a {
+    color: #39f;
+    border-bottom: 1px solid #39f;
+}

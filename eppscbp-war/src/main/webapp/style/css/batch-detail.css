@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+@import "platform-common.css";
+
+.search-form-box {
+    padding: 14px 0 30px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.search-form-box dl {
+    float: left;
+    height: 30px;
+}
+.search-form-box dl.mb {
+    margin-bottom: 34px;
+}
+.search-form-box dt {
+    float: left;
+    width: 113px;
+    height: 30px;
+    font-size: 14px;
+    color: #333;
+    padding-right: 9px;
+    line-height: 30px;
+    text-align: right;
+}
+.search-form-box dd {
+    float: left;
+    width: 260px;
+}
+.search-form-box dd .platform-input {
+    width: 238px;
+}
+
+.search-form-box dd .platform-select {
+    width: 260px;
+}
+.search-form-box dd .platform-select .select-input {
+    width: 238px;
+}
+.search-form-box dd .platform-select .select-box {
+    width: 258px;
+}
+.search-form-box dd .platform-input.date {
+    float: left;
+    width: 94px;
+}
+.search-form-box dd .date-txt {
+    float: left;
+    width: 28px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.search-form-box dd .platform-button {
+    width: 78px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    margin-right: 10px;
+    float: left;
+}
+
+.batch-detail-table-wrap {
+
+}
+.batch-detail-table-wrap .top-ctrl {
+    margin: 20px 0;
+}
+.batch-detail-table-wrap .top-ctrl .platform-button {
+    width: 78px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+}
+.batch-detail-table-wrap .top-ctrl .platform-button .btn-icon {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    margin-right: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.batch-detail-table-wrap .top-ctrl .platform-button .btn-icon.icon-export {
+    height: 15px;
+    margin-top: 6px;
+    background-image: url(../images/icon-export.png);
+}
+
+.batch-detail-table-wrap .batch-detail-table {
+    overflow-x: auto;
+}
+.batch-detail-table-wrap .batch-detail-table .platform-table {
+    width: 1800px;
+    table-layout: fixed;
+}
+.batch-detail-table-wrap .batch-detail-table .platform-table td.fail-detail {
+    text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden;
+}
+.pagination-box {
+    margin-top: 20px;
+}

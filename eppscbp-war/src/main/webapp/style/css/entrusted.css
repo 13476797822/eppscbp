@@ -1,0 +1,189 @@
+@import "reset.css";
+@import "common.css";
+body{ -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
+.w990 {width: 990px;margin: 0 auto;}
+.w950 {width: 950px;margin: 0 auto;}
+.border_ec {border: 1px #ececec solid;}
+.border_ecbtm {border-bottom: 1px #ececec solid;}
+.mrb20 {margin-bottom: 20px;}
+.mrt30 {margin-top: 30px;}
+.point{cursor: pointer;}
+.bgf8 {background: #f8f8f8;}
+.fl{float: left;}
+.fr{float:right;}
+.textalr{text-align: right;}
+.rel{position: relative;}
+.hide{display: none}
+.show{display: block;}
+.colorf5{color:#ff5555;}
+.h50 {height: 50px;}
+.h43 {height: 43px;}
+.h140 {height: 140px;}
+.h18 {height: 18px;}
+.cash_content dl.hauto{height: auto}
+.borderbottom_ec {border-bottom: 1px #ececec solid;}
+.font16{font:16px/50px 'Microsoft Yahei';}
+.font14{font:14px/50px 'Microsoft Yahei';}
+.font12{font:12px/50px 'Microsoft Yahei';}
+.fontsize16{font-size: 16px}
+.fontsize14{font-size: 14px}
+.fontsize12{font-size: 12px}
+.mrl20{margin-left: 20px}
+.mrl10{margin-left: 10px}
+.mrl14{margin-left: 14px}
+.marl4{margin-left: 4px}
+.mrl5{margin-left: 5px}
+.marl6{margin-left: 6px}
+.marl16{margin-left: 16px}
+.mrl90{margin-left: 90px}
+.mrl110{margin-left: 110px}
+.mrr36{margin-right: 36px}
+.mart10{margin-top:10px;}
+.mrt39{margin-top: 39px}
+.mrt8{margin-top: 8px}
+.mrt16{margin-top: 16px}
+.mrt24{margin-top: 24px}
+.mart2{margin-top: 2px}
+.mart6{margin-top: 6px}
+.mart4{margin-top: 4px}
+.mart40{margin-top: 40px}
+.mart25{margin-top: 25px}
+.mrl26{margin-left: 26px;}
+.martie70{*margin-top: 0}
+.martie74{*margin-top: 4px}
+.mrl8{margin-left: 8px}
+.mrl4{margin-left: 4px}
+.mrl6{margin-left: 6px}
+.pad20{padding-left: 20px;padding-right: 20px}
+.width140{width: 140px}
+.color9{color: #999999}
+.color6{color: #666666}
+.color3{color: #333333}
+.width75{width: 75px}
+.width75{width: 80px}
+.height21{height: 21px}
+.h45{height: 45px}
+.h77{height: 77px}
+.h72{height: 72px}
+.h224{height: 224px}
+.height18{height: 18px}
+.clearboth{clear: both;}
+.cardmanage{font-size: 14px;color: #3399ff;font-weight: bold;}
+.usualques{font-size: 12px;color: #3399ff;margin-left: 15px;font-weight: bold;}
+.cash_content {position: relative;height: auto;margin: 28px auto auto 110px;}
+.cash_content dl {height: 30px;line-height: 30px;position: relative;clear: both;}
+.clearfix {zoom: 1;}
+.clearfix:before, .clearfix:after {content: "";display: table;}
+.cash_card dt {line-height: 50px;}
+.cash_content dt {width: 115px;float: left;color: #666;font-size: 14px;text-align: right;}
+.cash_content dd {float: left;color: #999;font-size: 14px;}
+.cash_content ul {position: relative;}
+.cash_card .cashCard {height: 30px;width: 600px;margin-top: -1px;line-height: 30px;border: 1px solid #99ccff;border-radius: 6px;background: #fff;padding: 9px 10px 9px 5px;font-family: "Microsoft Yahei";cursor: pointer;overflow: hidden;}
+.cash_card .cashCard.on, .cash_card .cashCard:hover {background: #eef9ff;}
+.cash_card .bankicon {width: 50px;float: left;height: 17px;line-height: 17px;margin-top: 3px;vertical-align: middle;text-align: center;}
+.cash_card .bankicon img {vertical-align: middle;}
+.cash_content dd span {font-size: 12px;margin-left: 5px;}
+.cash_card .cashCard .cardName {margin: 0px 10px 0 0;float: left;min-width: 130px;font-size: 14px;color: #666; font-family: "microsoft yahei";}
+.cash_card .cashCard .cardNo {font-size: 12px;color: #666;margin: 0px 10px;float: left;}
+.cash_card .cashCard .tip {background: url(../images/sprite2.png) -192px -0px no-repeat;width: 38px;height: 14px;margin-top: 8px;display: block;float: left;}
+.cash_card .personCard .tip {background: url(../images/sprite2.png) -230px -0px no-repeat;}
+.cash_card .personCardOn .tip {background: url(../images/sprite2.png) -192px -0px no-repeat;}
+.cash_card .companyCard .tip {width: 38px;height: 14px;margin-top: 8px;background: url(../images/sprite2.png) -268px -0px no-repeat;}
+.cash_card .cashCard .cardHelp {font-size: 12px;float: left;color: #999;font-family: "microsoft yahei";}
+.cash_card .companyCardOn .tip {margin-top: 8px;background: url(../images/sprite2.png) -154px -0px no-repeat;}
+.cash_card .card_to_show.card_to_show_first {margin-top: -1px;}
+.cash_card .card_to_show {width: 615px;height: 15px;position: relative;margin-top: -10px;border: 1px solid #99ccff;border-bottom: none;background: #fff;border-radius: 6px;}
+.cash_card .card_behave {width: 630px;margin: -10px 0 0 -6px;position: relative;border-top: 1px solid #dedede;font-size: 12px;background: #fff;}
+.cash_content dd a {font-size: 12px;color: #3399ff;}
+.cash_card .card_behave a {float: left;color: #3399ff;margin: 0px 10px;position: relative;}
+.cash_card .card_behave a:hover {text-decoration: none;color: #3399ff;}
+.cash_card .card_behave .hideCard i {background: url(../images/sprite2.png) -390px -0px no-repeat;width: 9px;height: 5px;display: inline-block;position: relative;margin-right: 6px;top: -2px;}
+.cash_card .card_behave .showCard i {background: url(../images/sprite2.png) -380px -0px no-repeat;width: 10px;height: 6px;display: inline-block;position: relative;margin-right: 6px;top: -2px;}
+.cash_card .card_behave span {margin-left: 0;}
+.cash_card .cashCard.disabled, .cash_card .cashCard.disabled:hover {background: #f8f8f8;color: #999999;cursor: not-allowed;}
+.choosebanktxt{line-height: 50px;font-size: 14px}
+.bankcard{height: 50px;width: 616px;background: #eef9ff;border-radius: 3px;border:1px solid #99ccff;}
+.otherbank{clear: both;margin-top: 10px}
+.otherbanktxt{font-size:12px;color: #3399ff;height: 18px}
+.qiyeka{background: #85c2ff;border-radius: 3px;color: #fff;padding: 0 3px 0 3px;margin:16px 0 0 14px;}
+.bordertop {border-top: 1px #ececec solid;}
+.height60 {height: 60px;}
+.lineh30{line-height: 30px}
+.lineh40{line-height: 40px}
+.lineh21{line-height: 21px}
+.mrb20 {margin-bottom: 20px;}
+.paddtop20 {padding-top: 20px;}
+.padr4{padding-right: 4px}
+/*.bankicon{display: block;width: 20px;height: 20px;background: url("../images/cbb_icon.png");background-size: cover;margin: 16px 0 0 20px;-ms-behavior: url(backgroundsize.min.htc);behavior: url(backgroundsize.min.htc);}*/
+.arrowicondown{display: block;width: 8px;height: 4px;background: url("../images/icon_blue_arrow_down.png");background-size: cover;margin-top: 7px}
+.arrowiconup{display: block;width: 8px;height: 4px;background: url("../images/icon_blue_arrow_up.png");background-size: cover;margin-top: 7px}
+.select-box-input {outline: none;width: 130px;padding-left:10px;height: 28px;border: 1px solid #CCC;line-height: 24px;font-size: 14px;font-family: "Microsoft Yahei";background: url(../images/icon_white_arrow.png) 125px 12px no-repeat;cursor: pointer;color: #333;}
+.select-box-input.pointd{cursor: default;}
+.top29 {top: 29px;left:0px;}
+.abs {position: absolute;}
+ul.top29 {top: 29px;left:0px;}
+ul.abs {position: absolute;}
+.select-box-wrap {display: none;overflow: hidden;position: relative;top: -1px;width: 140px;border: 1px solid #BBB;background-color: #FFF;font-size: 14px;z-index: 3;}
+.select-box-wrap .sel-val {display: block;width: 100%;height: 32px;padding-left: 10px;color: #333;line-height: 32px;}
+.select-box-wrap .sel-val:hover {color: #FFF;background-color: #4ca6ff;text-decoration: none;}
+.colorf60{color: #ff6600}
+.color39f{color: #3399ff}
+.liucun-input {outline: none;width: 156px;padding-left:10px;height: 28px;border: 1px solid #CCC;line-height: 24px;font-size: 14px;font-family: "Microsoft Yahei";color: #333;}
+.agreeicon {float: left;display: inline;width: 13px;height: 13px;margin-top: 3px;background: url(../images/module.sprite.png) no-repeat -90px 0;overflow: hidden;cursor: pointer;}
+.checked {background-position: -90px -13px;}
+.kaitongwei{width: 140px;height: 40px;border-radius: 3px;background-color: #4ca6ff;text-align: center;line-height: 40px;color: #fff;font-size: 16px;cursor: pointer;}
+.kaitongwei.btn_disable{background: #a6d3ff;cursor: default;}
+.guize{width: 338px;height: 76px;background-color: #fffff0;border: 1px solid #ffcc66;z-index: 2;/*left: 120px;top:230px;*top:230px;*/}
+.dongjiepop {height: 239px;width: 520px;}
+.Fanxi-window-pop {position: fixed;left: 50%;margin-left: -260px;top: 50%;margin-top: -148px;width: 464px;height: 316px;border: 6px solid #b2b2b2;background: #fff;z-index: 4;}
+.Tip-window-pop {position: fixed;left: 50%;top: 50%;width: 180px;height: 50px;margin-left:-90px;margin-top:-25px;border: 6px solid #b2b2b2;background: #fff;z-index: 4;}
+.dialog_set {height: 50px;line-height: 50px;padding-left: 76px;position: relative;}
+.dialog_set i {background: url(../images/sprite2.png) -64px -0px no-repeat;width: 32px;height: 32px;position: absolute;left: 37px;top: 9px;}
+.dialog_set h1 {font-size: 16px;color: #666;}
+.dongjiepop div.mimatitile {font-weight: bold;padding: 5px 0;text-align: left;margin-top: 0;background: #f8f8f8;color: #333;font-size: 14px;border-bottom: 1px #cccccc solid;}
+.dongjiepop div {font-size: 14px;color: #666;}
+.marl142 {margin-left: 142px}
+.dongjiepop div.mimatitile span {float: right;display: block;background: url(../images/cancel.png) no-repeat;width: 28px;height: 28px;margin-top: -5px;*margin-top: -30px;cursor: pointer;}
+.dongjietitle {margin: 40px auto 0 0;}
+.dongjiepop a {margin: 38px auto 38px auto;display: inline-block;}
+.Fanxi-window-pop a {display: block;margin: 0 auto;}
+.dongjiepop .closedongjie {margin-left: 19px;background: #fff;color: #333;border: 1px #ccc solid;}
+.btn160.marl0{margin-left: 0}
+.btn160.marl20{margin-left: 20px}
+.btn160.mrt38{margin-top: 38px}
+.btn160.mrb60{margin-bottom: 60px}
+.mengceng{position: fixed;width: 100%;height: 100%;z-index: 3;background: #7f7f7f;left: 0;top:0;opacity: .5}
+a.btn160 {display: inline-block;width: 100px;height: 40px;color: #fff;font: bold 14px/40px 'Microsoft Yahei';text-align: center;background: #4ca6ff;border-radius: 3px;margin-left: 480px;margin-top: 8px;}
+a.btn160:hover {color: #fff;background: #a6d3ff;text-decoration: none;}
+a.J_cancel:hover{color: #333;text-decoration: none;background: #fafafa;}
+.left{width: 115px;float: left;color: #666;font-size: 14px;text-align: right;}
+.btnall{width: 100%;text-align: center;}
+/*常见问题*/
+.qestitle{font-size: 16px;color: #333;}
+.qestitle p{padding-top: 18px}
+ol{list-style-type:none;counter-reset:sectioncounter;}  
+ol li:before {  content:counter(sectioncounter) "、";counter-increment:sectioncounter;} 
+ol li{margin-top: 20px}
+.btm40{margin-bottom: 40px}
+/*已经开通*/
+.opencont dl{margin-bottom: 18px;position: relative;clear: both;font-size: 14px}
+.clearfix:before, .clearfix:after {content: "";display: table;}
+.opencont dt {width: 115px;float: left;color: #666;font-size: 14px;text-align: right;margin-left: 115px}
+.opencont dd {float: left;font-size: 14px;}
+.mrt40{margin-top: 40px}
+.colorf70{color: #ff7700}
+a.btn160.closedongjie {margin-left: 19px;background: #fff;color: #666;border: 1px #ccc solid;}
+a.J_cancel.closedongjie:hover{color: #666;text-decoration: none;background: #fafafa;}
+.sucesstitle,.failtitle{text-align: center;margin-top: 47px}
+.sucesstitle i{display: inline-block;width: 36px;height: 36px;vertical-align: middle;background: url(../images/tipIcon.png);background-position: 93px 0}
+.failtitle i{display: inline-block;width: 36px;height: 36px;vertical-align: middle;background: url(../images/tipIcon.png);background-position: 93px -210px}
+.sucesstitle span,.failtitle span{font-size: 16px;color: #333;margin-left: 3px}
+.sucesscont{font-size: 14px;color: #666;text-align: center;margin-top: 28px}
+.failcont{font-size: 14px;color: #666;text-align: center;margin-top: 28px}
+.mrt40{margin-top: 40px}
+.mrt22{margin-top: 22px}
+.color39f{color: #3399ff}
+a:hover{text-decoration: none;}
+.closeweituotxt{text-align: center;font-size: 14px;color: #666}
+.textcenter{text-align: center;}
+.zhifuwrongtip{left: 0;top: 24px;position: absolute;color: #ff6c6c !important}

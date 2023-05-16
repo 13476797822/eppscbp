@@ -1,0 +1,725 @@
+@import url(deal-center.css);
+
+/** 批量转账到易付宝 **/
+
+.wrap {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background: #000000;
+	opacity: 0.4;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+	z-index: 999;
+	display: none;
+}
+
+input[disabled] {
+	background: #fafafa;
+}
+
+.three-menu .three-menu-item.batch-transfer a {
+	padding-left: 60px;
+}
+
+.three-menu .three-menu-item.batch-transfer a .icon {
+	left: 28px;
+	background: url(../images/transfer_batch.png) no-repeat;
+}
+
+.three-menu .three-menu-item.batch-transfer a .icon-1 {
+	height: 17px;
+	top: 16px;
+	background-position: 0 -20px;
+}
+
+.three-menu .three-menu-item.batch-transfer a .icon-2 {
+	height: 16px;
+	top: 16px;
+	background-position: -23px -20px;
+}
+
+.three-menu .three-menu-item.batch-transfer a .icon-3 {
+	width: 18px;
+	height: 16px;
+	background: url(../images/icon-3.png) no-repeat center;
+	margin-top: -1px;
+}
+
+.batch-payment .content .tab-list {
+	width: 100%;
+}
+
+.batch-payment .content .tab-list ul {
+	float: left;
+}
+
+.batch-payment .content .tab-list .limit-msg {
+	height: 28px;
+	line-height: 28px;
+	font-size: 13px;
+	color: #ff7700;
+	float: right;
+	display: none;
+}
+.batch-payment .content .tab-list .limit-msg i{color: #ff5555;padding-right: 3px;}
+.batch-payment .content img.guide {
+	position: fixed;
+	top: 50%;
+	right: 50%;
+	z-index: 999;
+	display: none;
+	border: 4px solid #FFFFFF;
+}
+
+.batch-payment .content .tab-list li {
+	float: left;
+	cursor: pointer;
+	position: relative;
+	font-size: 14px;
+	line-height: 28px;
+	color: #666;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.batch-payment .content .tab-list li.font {
+	font-size: 12px;
+	color: #bbb;
+}
+
+.batch-payment .content .tab-list li.hover {
+	color: #fff;
+	background: #39f;
+}
+
+.batch-payment .content .tab-list span {
+	display: inline-block;
+	font-size: 12px;
+	color: #bbb;
+	padding: 0 10px;
+}
+/*上传表格 start*/
+.content-list .upload-table table{width: 930px;table-layout: fixed;}
+
+.content-list .upload-table table thead tr th{background: #dce9f5;}
+.content-list .upload-table table thead th{height: 39px;font-size: 14px;color: #666;border: 1px solid #c4d4e3;border-right: 0;text-align: center;}
+.content-list .upload-table table thead th.end{border-right:1px solid #c4d4e3;}
+.content-list .upload-table thead .payee-name{width: 133px;text-align: left;padding: 0 10px;}
+.content-list .upload-table thead .account-number{width: 168px;}
+.content-list .upload-table thead .purpose{padding: 0 10px;} 
+.content-list .upload-table thead .payee-branch{padding: 0 10px; text-align: left;}
+
+
+.content-list .upload-table table td input{border:0; height: 52px;line-height: 30px;}
+.content-list .upload-table table tr{background: #fff;}
+.content-list .upload-table table td{height: 52px;font-size: 14px;color: #333;border: 1px solid #eee;text-align: center;word-break: break-all;}
+#fillForm thead td.payee-province,#fillForm thead td.payee-city,#fillForm thead td.payee-branch,#fillForm thead td.union-line-number{
+    background: #fafafa;
+}
+
+.content-list .upload-table table td.end{border-right:1px solid #eee;background: #fafafa;}
+.content-list .upload-table tbody .payee-name{text-align: left;padding: 0 10px;}
+.content-list .upload-table tbody .payee-name input{width: 134px;}
+.content-list .upload-table tbody .account-number
+,.content-list .upload-table tbody .payee-bank-number input
+,.content-list .upload-table tbody .payee-bank input,.payee-province input,.payee-city input,.union-line-number input{text-align: center;}
+.content-list .upload-table tbody .purpose{padding: 0 10px;}
+.content-list .upload-table tbody .payee-branch{padding: 0 10px; text-align: left;}
+.content-list .upload-table tbody .payee-branch div{position: relative;}
+.content-list .upload-table tbody .payee-branch .icon-down,.content-list .upload-table tbody .inp .icon-down{
+    cursor: pointer;
+    position: absolute;
+    right: -1px;
+    top: 1px;
+    *top: 2px;
+    width: 8px;
+    height: 4px;
+    border: 13px solid #fff;
+    background: url(../images/icon-batch-payment.png) no-repeat #fff;
+    background-position: 0 -71px;
+}
+.content-list .upload-table tbody .payee-branch input{border: 1px solid #ccc;width: 138px; height: 30px;line-height: 30px;}
+.content-list .upload-table tbody .payee-inp input{width: 115px;height: 30px;line-height: 30px;border: 1px solid #ccc;}
+.content-list .upload-table tbody .payee-branch .input-alert-list{
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    width: 138px;
+    border: 1px solid #ccc;
+    background: #fff;
+    max-height: 157px;
+    overflow-y: auto;
+    z-index: 99;
+    display: none;
+
+}
+.content-list .upload-table tbody .payee-inp .input-alert-list{
+	width: 115px;
+}
+.content-list .upload-table tbody .inp .input-alert-list{
+    position: absolute;
+    top: 42px;
+    left: 10px;
+    width: 115px;
+    border: 1px solid #ccc;
+    background: #fff;
+    max-height: 157px;
+    overflow-y: auto;
+    z-index: 99;
+    display: none;
+
+}
+.input-alert-list .input-alert-item{
+	padding-left: 4px;
+    cursor: pointer;
+}
+.input-alert-list .input-alert-item:hover{
+	background: #ffb433;
+    color: #fff;
+}
+.union-line-number input,.payee-city input,.payee-province input{width: 134px;}
+.union-line-number input,.payee-bank input{width: 153px;}
+.content-list .quick-fill tbody input[type='radio']{vertical-align: middle;}
+.content-list .quick-fill tbody input[type='radio'].radio-two{margin-left: 6px;}
+.quick-fill .info-list {
+	position: relative;
+}
+
+.quick-fill .info-list ul {
+	position: relative;
+	width: 912px;
+	padding: 8px;
+	border: 1px solid #eee;
+	border-top: 0;
+}
+
+.content-list .quick-fill tbody .check.err-text {
+	color: #f55;
+}
+
+.quick-fill .info-list label {
+	font-size: 14px;
+	line-height: 30px;
+	color: #666;
+	margin-left: 26px;
+	width: auto;
+}
+
+.quick-fill .info-list span {
+	font-size: 14px;
+	line-height: 30px;
+	color: #333;
+	font-weight: bold;
+}
+
+.quick-fill .info-list li {
+	display: inline-block;
+	float: left;
+	width: 280px;
+}
+
+.quick-fill .info-list .unclick {
+	position: absolute;
+	display: inline-block;
+	width: 94px;
+	height: 32px;
+	line-height: 32px;
+	top: 20px;
+	right: 27px;
+	text-align: center;
+	border: 1px solid #ddd;
+	color: #ddd;
+	border-radius: 3px;
+	cursor: not-allowed;
+}
+
+.payment-date {
+	padding: 20px 0;
+}
+.payment-date span{
+	position: relative;
+}
+/*到账时间提示浮框*/
+.account-type-tip{
+	position: absolute;
+	top: 8px;
+	left: 105px;
+	*left: 110px;
+	z-index: 99;
+	width:185px;
+	padding: 5px;
+	font-size: 12px;
+	color: #333;
+	background-color: #fff;
+	border:1px solid #666;
+	word-break:break-all;
+	display: none;	
+}
+.payment-date label {
+	display: inline-block;
+	width: 350px;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	text-align: right;
+}
+
+.payment-date input[type='radio'] {
+	vertical-align: middle;
+}
+
+.payment-date span {
+	display: inline-block;
+	width: 112px;
+	text-align: left;
+	font-size: 16px;
+	color: #333;
+}
+
+.payment-date i {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background: url(../images/icon-warn.png) no-repeat center;
+	vertical-align: middle;
+	margin: -3px 0 0 3px;
+}
+.agreement {
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+.agreement .agree{display: inline-block;width: 13px;height: 13px;background: url(../images/checkboxyes.png) no-repeat center;vertical-align: middle;margin-right: 8px;}
+.agreement .disagree{display: inline-block;width: 13px;height: 13px;background: url(../images/checkboxno.png) no-repeat center;vertical-align: middle;margin-right: 8px;}
+.agreement input[type='checkbox'] {
+	padding: 0 7px;
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+.agreement a {
+	color: #39f;
+}
+.agreement a:hover{
+	text-decoration: underline;
+}
+.agreement .unclick {
+	width: 147px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px;
+	color: #ccc;
+	font-weight: bold;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 20px auto 30px;
+	cursor: not-allowed;
+}
+
+.agreement .J_okpay {
+	color: #fff;
+	background: #ffad19;
+	cursor: pointer;
+	border: 1px solid #ffad19;
+}
+
+.more-agreement {
+	font-size: 14px;
+	color: #999;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.more-agreement a {
+	color: #39f;
+	text-decoration: underline;
+}
+
+.more-agreement span {
+	color: #39f;
+}
+
+.upload-files .more-agreement label {
+	width: auto;
+}
+
+.upload-files {
+	font-size: 14px;
+	color: #666;
+}
+
+.upload-files .select-file-opera label {
+	float: left;
+	display: inline-block;
+	width: 350px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+
+.upload-files div .up {
+	margin-left: 9px;
+	position: relative;
+	float: left;
+	width: 84px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	border: 1px solid #c2c2c2;
+	font-size: 14px;
+	color: #333;
+	overflow: hidden;
+}
+
+.upload-files div .up input {
+	cursor: pointer;
+	z-index: 1;
+	position: absolute;
+	left: -25px;
+	top: 0;
+	width: 130%;
+	height: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	margin-left: 0;
+	font-size: 0;
+}
+
+.upload-files .download-template {
+	margin-top: 15px;
+	margin-bottom: 16px;
+}
+
+.upload-files .download-template label {
+	display: inline-block;
+	width: 350px;
+	text-align: right;
+}
+
+.upload-files .download-template a {
+	color: #39f;
+}
+
+.upload-files .download-template a.a_search {
+	margin-left: 115px;
+	color: #39f;
+	font-size: 14px;
+	padding: 0;
+	border: 0;
+}
+
+.upload-files .download-template a:hover {
+	text-decoration: underline;
+}
+
+.upload-files .file-path {
+	float: left;
+	font-size: 14px;
+	width: 208px;
+	height: 28px;
+	color: #333;
+	line-height: 28px;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 0 5px;
+	position: relative;
+	z-index: 888;
+}
+
+.upload-files .file {
+	font-size: 14px;
+	width: 84px;
+	height: 30px;
+	color: #333;
+	line-height: 28px;
+	*line-height: 22px;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #fff;
+	font-family: "微软雅黑";
+	margin-left: 5px;
+}
+
+.upload-files .J_upload {
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	width: 84px;
+	line-height: 28px;
+	*line-height: 22px;
+	color: #fff;
+	background: #ffad19;
+	border: 1px solid #ffad19;
+	text-align: center;
+	border-radius: 1px;
+	font-family: "微软雅黑";
+	margin-left: 9px;
+}
+
+.upload-files .text {
+	font-size: 12px;
+	color: #999;
+	margin: 3px 0 0 355px;
+	padding-bottom: 25px;
+}
+
+.page .posi-left {
+	float: left;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	background: #ffab19;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.upload-files .quick-fill .info-list ul {
+	border-top: 1px solid #eee;
+}
+
+.account-number input,
+.amount input,
+.purpose input {
+	text-align: center;
+}
+
+.amount input {
+	width: 132px;
+}
+
+.purpose input {
+	width: 133px;
+}
+
+.quick-fill .unclick.J_confirm {
+	color: #fff;
+	background: #ffad19;
+	cursor: pointer;
+	border: 1px solid #ffad19;
+}
+
+
+/*确认弹框样式*/
+
+.ui-dialog-wrap p {
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+}
+
+.ui-dialog-wrap p.first {
+	margin-top: 45px;
+}
+
+.ui-dialog-wrap p em {
+	color: #ff7700;
+}
+
+.ui-dialog-wrap .buttonList {
+	padding-bottom: 32px;
+	text-align: center;
+}
+
+.ui-dialog-wrap .buttonList div {
+	display: inline-block;
+	float: left;
+}
+
+.ui-dialog-wrap .confirm {
+	font-size: 16px;
+	width: 98px;
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	background: #ffb433;
+	border: 1px solid #ffb433;
+	border-radius: 4px;
+	margin-top: 34px;
+	margin-right: 20px;
+	*margin-left: 135px;
+	cursor: pointer;
+}
+
+.ui-dialog-wrap .cancel {
+	font-size: 16px;
+	width: 98px;
+	height: 38px;
+	line-height: 38px;
+	color: #333;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 34px;
+	cursor: pointer;
+}
+.upload-table .table-box {
+	overflow-x: scroll;
+}
+.table-box {
+	position: relative;
+	width: 930px;
+}
+
+#fillForm {
+	position: relative;
+}
+
+.border-left {
+	position: absolute;
+	width: 1px;
+	height: 584px;
+	background: #eee;
+	top: 61px;
+	left: 0px;
+	z-index: 9;
+}
+
+.border-left-top {
+	position: absolute;
+	width: 1px;
+	height: 40px;
+	background: #c4d4e3;
+	top: 20px;
+	left: 0px;
+	z-index: 9;
+}
+
+.table-fill {
+	position: relative;
+}
+
+#table2 {
+	position: absolute;
+	width: 119px;
+	top: 0;
+	right: 0;
+}
+
+#file-table2 {
+	position: absolute;
+	width: 119px;
+	top: 0;
+	right: 0;
+}
+
+
+/*确认核对弹窗 --- 数据变更提示弹窗*/
+
+.ui-dialog-wrap p.oP {
+	width: 285px;
+	margin: 0 auto;
+	word-break: break-all;
+	font-size: 16px;
+	color: #333333;
+	padding: 40px 0 45px 0;
+}
+
+.ui-dialog-wrap .btn-wrap {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.ui-dialog-wrap .btn-wrap a.oA {
+	display: inline-block;
+	text-align: center;
+	margin-top: 0;
+}
+
+
+/*快读填写表格--新 start*/
+.fill-table .table-box table {
+	font-size: 14px;
+	color: #666666;
+	font-family: "microsoft yahei";
+	text-align: center;
+	margin-top: 14px;
+	/*边框不会合并为一个单一的边框*/
+	border-collapse:separate;
+}
+
+.fill-table .table-box table .t-head {
+	height: 34px;
+}
+
+.fill-table .table-box table .t-body {
+	height: 30px;
+}
+
+.fill-table .table-box table .t-body td {
+	border-bottom: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	position: relative;
+}
+.fill-table .table-box table .t-body td.kh-bank-column {position: relative;background: #fafafa;}
+.fill-table .table-box table .t-body td.kh-bank-column .arrow-down{cursor: pointer;position: absolute;right: 0px;top: 2px;width: 8px;height: 4px;border: 10px solid #fff;background: url(../images/icon-batch-payment.png)  no-repeat #fff;background-position: 0 -71px;}
+.fill-table .table-box table .t-body td.kh-bank-column .option {position: absolute;width: 135px;top: 29px;left: 0;z-index:999;border: 1px solid #ccc;}
+.hide{display: none;}
+.fill-table .table-box table .t-body td.kh-bank-column .option li{height: 30px;line-height: 30px;background: #FFFFFF;}
+.fill-table .table-box table .t-body td.kh-bank-column .option li:hover{background: #ffb433;}
+.fill-table .table-box table tr th {
+	font-weight: normal;
+	border-top: 1px solid #c4d4e3;
+	border-bottom: 1px solid #c4d4e3;
+	border-left: 1px solid #c4d4e3;
+	background: #dce9f5;
+	text-align: center;	
+}
+
+.fill-table .table-box .bright2 {
+	border-right: 1px solid #eeeeee;
+	background: #fafafa;
+}
+.fill-table .table-box .error-res{
+	color: #ff5555;
+}
+.fill-table .table-box .bright {
+	border-right: 1px solid #c4d4e3;
+}
+
+.fill-table .table-box .column {
+	height: 27px;
+	line-height: 27px;
+	border: 0;
+	outline: none;
+	text-align: center;
+	font-size: 14px;
+	color: #666666!important;
+	font-family: "microsoft yahei";
+	padding: 0 5px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.fill-table .table-box .column01 {
+	width: 92px;
+}
+
+.fill-table .table-box .column02 {
+	width: 76px;
+}
+
+.fill-table .table-box .column03 {
+	width: 157px;
+}
+
+.fill-table .table-box .column04 {
+	width: 125px;
+}
+
+.fill-table .table-box .column05 {
+	width: 96px;
+}
+
+.fill-table .table-box .column06 {
+	width: 126px;
+}
+
+/*快读填写表格--新 end*/

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.jw-tool-bar{height:27px;border-bottom:1px solid #e4e4e4;background:#f4f4f4;}
+.jw-wrapper{width:990px;margin:0 auto;}
+.jw-welcome{float:right;font:normal 12px/27px \5b8b\4f53;color:#aaa;}
+.jw-welcome a{color:#aaa;}
+.jw-welcome a:hover{color:#f60;}
+.jw-welcome em{padding:0 10px;}
+.jw-logo{display:block;height:76px;width:277px;background:url(../images/logo_jw.jpg) no-repeat; text-indent:-9999em;}
+.jw-nav{height:39px;border-bottom:1px solid #0082c2;background:#0aa3f0;}
+.jw-nav li{float:left;width:100px;height:39px;font:bold 14px/40px \5b8b\4f53;text-align:center;cursor:pointer;}
+.jw-nav li.on{background:#0082c2;}
+.jw-nav li a{display:block;width:100px;height:39px;color:#fff;}
+.jw-nav li a:hover{background:#0082c2; text-decoration:none;}
+.jw-main-content {width:990px;margin:10px auto 40px;overflow:hidden;}
+.jw-main-content .jy-main-right {border: 1px solid #ccc;}

@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+@import "platform-common.css";
+
+.search-form-box {
+    padding: 14px 0 30px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.search-form-box dl {
+    float: left;
+    height: 30px;
+}
+
+.search-form-box dl.mb {
+    margin-bottom: 34px;
+}
+
+.search-form-box dt {
+    float: left;
+    width: 113px;
+    height: 30px;
+    font-size: 14px;
+    color: #333;
+    padding-right: 9px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.search-form-box dd {
+    float: left;
+    width: 260px;
+}
+
+.search-form-box dd .platform-input {
+    width: 238px;
+}
+
+.search-form-box dd .platform-select {
+    width: 260px;
+}
+
+.search-form-box dd .platform-select .select-input {
+    width: 238px;
+}
+
+.search-form-box dd .platform-select .select-box {
+    width: 258px;
+}
+
+.search-form-box dd .platform-input.date {
+    float: left;
+    width: 94px;
+}
+
+.search-form-box dd .date-txt {
+    float: left;
+    width: 28px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.search-form-box dd .platform-button {
+    width: 78px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    margin-right: 10px;
+    float: left;
+}
+
+.withdraw-detail-table-wrap {
+
+}
+
+.withdraw-detail-table-wrap .top-ctrl {
+    margin: 20px 0;
+}
+
+.withdraw-detail-table-wrap .top-ctrl .platform-button {
+    width: 78px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+}
+
+.withdraw-detail-table-wrap .top-ctrl .platform-button .btn-icon {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6px;
+    margin-right: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.withdraw-detail-table-wrap .top-ctrl .platform-button .btn-icon.icon-export {
+    background-image: url(../images/icon-export.png);
+}
+
+.withdraw-detail-table-wrap .withdraw-detail-table {
+    overflow-x: auto;
+}
+
+.withdraw-detail-table-wrap .withdraw-detail-table .platform-table {
+    width: 1600px;
+    table-layout: fixed;
+}
+
+.withdraw-detail-table-wrap .withdraw-detail-table .platform-table .fail-detail {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pagination-box {
+    margin-top: 20px;
+}
+
+.detail-dialog-body {
+    padding: 36px 0 30px;
+}
+
+.detail-dialog-body .detail-list-wrap {
+
+}
+
+.detail-dialog-body .detail-list-wrap dl {
+    line-height: 18px;
+    margin-bottom: 22px;
+    font-size: 14px;
+    color: #333;
+}
+
+.detail-dialog-body .detail-list-wrap dt {
+    float: left;
+    text-align: right;
+    width: 233px;
+    padding-right: 6px;
+
+}
+
+.detail-dialog-body .detail-list-wrap dd {
+    float: left;
+}
+
+.detail-dialog-body .dialog-ctrl {
+    text-align: center;
+    font-size: 0;
+    padding-top: 6px;
+}
+
+.detail-dialog-body .dialog-ctrl .platform-button {
+    display: inline-block;
+    width: 98px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+.withdraw-detail-table .uploaded {
+    display: inline-block;
+    width: 62px;
+    height: 24px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: #333;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+/*添加成功弹框*/
+.add-success {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+}
+
+.add-success i {
+    display: inline-block;
+    width: 23px;
+    height: 35px;
+    vertical-align: middle;
+    background: url(../images/sign_success.jpg) no-repeat center;
+
+}
+
+/*添加失败弹框*/
+.add-fail {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+}
+
+.add-fail i {
+    display: inline-block;
+    width: 23px;
+    height: 35px;
+    vertical-align: middle;
+    background: url(../images/sign_fail.jpg) no-repeat center;
+
+}

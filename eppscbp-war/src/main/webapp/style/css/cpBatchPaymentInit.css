@@ -1,0 +1,16 @@
+.ui-dialog-wrap{
+	width: 1000px !important;
+	left: 150px !important;
+}
+.platform-scroll-table .platform-scroll-table-head {
+	border: 1px solid #e6e2e2;
+    border-width: 1px 1px 1px 0;
+    box-sizing: border-box;
+}
+.platform-scroll-table .platform-scroll-table-body{
+	border: 1px solid #e6e2e2;
+    border-width: 0 1px;
+}
+.jr-pagination{
+	padding: 10px;
+}

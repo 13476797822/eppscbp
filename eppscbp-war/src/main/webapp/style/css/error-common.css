@@ -1,0 +1,35 @@
+@import url("reset.css");
+.error_wrap{
+	width: 929px;
+}
+.error_wrap .main_wrap{
+	width: 570px;
+	margin: 0 auto;
+	padding: 240px 0;
+}
+.error_wrap .main_wrap img{
+	width: 156px;
+	height: 120px;
+	padding-right: 10px;
+	float: left;
+}
+.error_wrap .main_wrap p{
+	width: 400px;
+	float: left;
+	font-family: "microsoft yahei";
+}
+.error_wrap .main_wrap p.font01{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 0 2px 0;
+}
+.error_wrap .main_wrap p.font02 font{
+	color: #ff5555;
+}
+.error_wrap .main_wrap p.font03{
+	padding-top: 30px;
+}
+.error_wrap .main_wrap p.font03 a{
+	color:#39F;	
+}
+.error_wrap .main_wrap p.font03 a:hover{text-decoration: underline;}

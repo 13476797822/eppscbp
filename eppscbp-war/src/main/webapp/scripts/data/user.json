@@ -1,0 +1,14 @@
+{
+  "data": {
+    "number": "123456",
+    "receiveName": "老王",
+    "style": "人民币",
+    "accounts":"622848316144319",
+    "cashReceivableBank":"中国人民银行玄武支行",
+    "cashReceivableName" : "张三的户名",
+    "cashReceivableBankAddress": "南京市玄武区玄武大道1号",
+    "residentCountry": "中国",
+    "swiftCode": "JHgalsjhfkJHgjs",
+    "address":"南京市玄武区苏宁大道1号"
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "billno": "65465465654", 
+            "title": "这是第一"
+        },
+        {
+            "billno": "65465465654", 
+            "title": "这是第而"
+        },
+        {
+            "billno": "65465465654", 
+            "title": "这是第撒"
+        },
+        {
+            "billno": "65465465654", 
+            "title": "这是第四"
+        }
+    ], 
+    "datanum": [
+        {
+            "billno": "65465465654", 
+            "title": "这是第"
+        }
+    ], 
+    "rangeSec": [
+        1,2,3,4,5
+    ],
+    "content":"",
+    "success": true, 
+    "usertype":2,
+    "message":"nishishenme",
+    "totalCount": 15,
+    "bbb":"2345245"
+}

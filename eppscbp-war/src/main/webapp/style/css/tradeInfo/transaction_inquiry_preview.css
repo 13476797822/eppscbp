@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+.e-receiptContent{
+  width: 1190px;
+  min-height: 400px;
+  border: 1px solid #E8E8E8;
+  margin: auto;
+  padding: 20px;
+}
+
+.back-top-up{
+  font-size: 14px;
+  line-height: 40px;
+  color: #39f;
+  text-decoration: none;
+  outline: none;
+}
+
+.back-icon{
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+  margin-right: 5px;
+  vertical-align: middle;
+  background: url(../../images/back-icon.png) no-repeat center;
+  margin-top: -2px;
+}
+
+.previewContent{
+  width: 762px;
+  height: 777px;
+  margin: auto;
+  background: #F7F7F7;
+}
+
+.previewBtnArea{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.previewBtnArea div{
+  display: inline-block;
+  width: 134px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.btnLeft{
+  background: #3399FF;
+  color: #FFFFFF;
+}
+
+.btnRight{
+  margin-left: 20px;
+  color: #333333;
+}
+
+.mailContent{
+  margin-left: 35px;
+}
+
+.mailBox{
+  display: inline-block;
+  width: 348px;
+  min-height: 30px;
+  border: 1px solid #CDCDCD;
+  line-height: 30px;
+  vertical-align: text-top;
+}
+.mailBox .eidt-mark{
+  float: left;
+  position: relative;
+}
+.mailBox .icon-closemark{
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  background: url(../../images/close_icon.png) no-repeat center;
+  background-size: 10px;
+  right: 5px;
+  top: 12px;
+  cursor: pointer;
+}
+.mailBox span{
+  background: #EDEDED;
+  border-radius: 4px;
+  padding: 1px 23px 1px 3px;
+  margin-left: 4px;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.inputErrorTips{
+  margin-left: 70px;
+  margin-top: 10px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #FF3535;
+  letter-spacing: 0;
+}
+
+.inputTips{
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #999999;
+  letter-spacing: 0;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.mailPopBtns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -35px;
+}
+
+.mailPopBtns div{
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px; 
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.btnOk{
+  background: #FFA200;
+  color: #FFFFFF;
+}
+
+.btnCancel{
+  background: #FFFFFF;
+border: 0.5px solid #CCCCCC;
+border-radius: 4px;
+color: #333333;
+letter-spacing: 0;
+margin-left: 20px;
+}
+
+.infoTitle{
+  display: flex;
+  align-items: center;
+  font-family: PingFangSC-Medium;
+font-size: 16px;
+color: #666666;
+letter-spacing: 0;
+}
+
+.infoTitle img{
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
+}
+
+.infoContent{
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #999999;
+  letter-spacing: 0;
+  margin-left: 31px;
+  margin-top: 10px;
+  word-break: break-word;
+}
+.hide{
+  display: none;
+}
+.mailPopBtns div{
+  cursor: pointer;
+}
+.ipt-box{
+  float: left;
+  width: 100%;
+}
+.mail-input{
+  border: 0;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+}

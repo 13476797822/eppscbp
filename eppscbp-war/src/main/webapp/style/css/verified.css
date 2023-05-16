@@ -1,0 +1,561 @@
+﻿/*实名认证*/
+/*首页*/
+.ver_index{
+    margin-bottom: 50px;
+    font-family: 'Microsoft Yahei';
+    border-width: 0;
+}
+.ver_index h3.title{
+    height: 40px;
+    padding-top: 20px;
+    font: normal 18px/40px 'Microsoft Yahei';
+    border-bottom: 2px solid #e6e6e6;
+}
+.ver_index h3.title .sub{
+    font-size: 12px;
+    color: #999;
+}
+.ver_index h4.title_choose{
+    width: 100%;
+    height: 52px;
+    font: normal 12px/52px 'Microsoft Yahei';
+    color: #666;
+}
+.ver_index .card_list{
+}
+.ver_index .card_list .card_table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    /*border: 1px solid #e9e9e9;*/
+}
+
+.ver_index .card_table td{
+    height: 118px;
+    border-top: 1px solid #6bcaff;
+    border-bottom: 1px solid #6bcaff;
+}
+.ver_index .card_table .card_title{
+    width: 150px;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #6bcaff;
+    border-right: 1px solid #6bcaff;
+}
+.ver_index .card_table .card_info{
+    width: 300px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #6bcaff;
+}
+.ver_index .card_table .txt{
+    width: 252px;
+    margin: 0 0 10px 16px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.ver_index .card_table .txt span{
+    font-size: 12px;
+}
+.ver_index .card_table .txt_agreement{
+    width: 252px;
+    margin-left: 16px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.ver_index .card_table .blank_left{
+    padding-left: 36px;
+}
+.ver_index .card_table .card_info a{
+    color: #fff;
+}
+.ver_index .card_table .card_info a:hover{
+    text-decoration: underline;
+}
+.ver_index .card_table .card_cut{
+    width: 10px;
+    background: url(../images/verified.sprite.png) no-repeat 0 -472px;
+}
+.ver_index .card_table .card_info_mid{
+    width: 491px;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 36px;
+    color: #666;
+    vertical-align: middle;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+.ver_index .card_table .card_btn{
+    border: 1px solid #e9e9e9;
+    border-left: 0;
+}
+.ver_index .card_table .btn.btn_resize{
+	width: 110px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 45px;
+}
+.ver_index .card_table .btn{
+    float: left;
+    display: inline;
+    width: 116px;
+    margin-left: 45px;
+    vertical-align: middle;
+}
+/*个别样式*/
+.ver_index .card_table .card_title{
+    background-image: url(../images/verified.sprite.png);
+}
+.ver_index .card_01 .card_title{
+    background-position: 0 0;
+    /*background-image: url(../images/card_sygs.png);*/
+}
+.ver_index .card_02 .card_title{
+    background-position: 0 -118px;
+    /*background-image: url(../images/card_gtgsh.png);*/
+}
+.ver_index .card_03 .card_title{
+    background-position: 0 -236px;
+    /*background-image: url(../images/card_grjy.png);*/
+}
+.ver_index .card_04 .card_title{
+    background-position: 0 -354px;
+    /*background-image: url(../images/card_zfjfylzz.png);*/
+}
+/*选择企业账户类型 end*/
+/*信息填写 start*/
+.click_box{
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    color: #333;
+}
+/*信息填写 end*/
+/*上传 start*/
+.ver_upload{}
+.ver_upload .upload_middle{
+    margin: 0 40px;
+}
+.ver_upload .headline{
+    margin: 32px 0 0 85px;
+    font: normal 16px/30px 'Microsoft Yahei';
+    color: #333;
+}
+.ver_upload .subline{
+    margin-left: 85px;
+    font: normal 12px/18px 'Microsoft Yahei';
+    color: #999;
+    margin-bottom: 15px;
+}
+.ver_upload .subtitle{
+    margin-left: 85px;
+    font: normal 14px/26px 'Microsoft Yahei';
+    color: #666;
+}
+.ver_upload .upload_name{
+    height: 40px;
+    font: normal 14px/40px 'Microsoft Yahei';
+    text-align: center;
+    color: #666;
+}
+.ver_upload .a_img.a_resize{width: 114px;height: 80px;margin-bottom: 0;top: -6px;*top:-8px;}
+.ver_upload .a_img.a_resize.posi01{left: 36px;}
+.ver_upload .a_img.a_resize.posi02{left: 108px;}
+.ver_upload .a_img{
+    position: relative;
+    display: inline-block;
+    width: 134px;
+    height: 94px;
+    margin-bottom: 22px;
+    cursor: url(../images/zoomin.cur),pointer;
+}
+.ver_upload .a_img:hover{text-decoration: none;}
+.ver_upload .a_img p{width: 100%;position:absolute;bottom:-22px;left:0;font-size: 12px;color: #333333;text-align: center;}
+.ver_upload .a_img2{
+    position: relative;
+    display: block;
+    width: 134px;
+    height: 94px;
+    margin-bottom: 0;
+    cursor: default;
+}
+.ver_upload .a_img.a_resize img,.ver_upload .span_layer.span_resize{width: 114px;height: 80px;}
+.ver_upload .span_layer.span_resize{background: url(../images/upload_photo.png) no-repeat center;_background: url(../images/upload_photo_8.png) no-repeat center;}
+.ver_upload .a_img img,.ver_upload .a_img2 img{
+    width: 134px;
+    height: 94px;
+}
+.ver_upload .span_layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 134px;
+    height: 94px;
+    background: url(../images/verified.sprite.png) no-repeat 0 -590px;
+    _background: url(../images/verified8.sprite.png) no-repeat 0 0;
+    z-index: 99;
+}
+.ver_upload .bgtrans{
+    background-position: 0 -800px;
+}
+.ver_upload span.span_layer_border{
+    background-position: 0 -684px;
+    _background-position: 0 -134px;
+
+}
+.ver_upload ul.upload_row{
+    display: block;
+    width: 906px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ver_upload ul.upload_row li{
+    float: left;
+    width: 134px;
+    margin: 0 84px;
+}
+.relative{
+    position: relative;
+}
+.downluyin{
+    position: absolute;
+    bottom: 15px;
+    right: -100px;
+}
+.ver_upload .btn_white{
+    position: relative;
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+.yinpintxt{padding: 11px 0;}
+.hide{display: none;}
+.show{display: block;}
+.ver_upload .btn_white input{
+    position: absolute;
+    top: -20px;
+    left: -40px;
+    width: 150px;
+    height: 50px;
+    font-size: 80px;
+    cursor:pointer;
+    filter: alpha(opacity=1);
+    -moz-opacity: .01;
+    -khtml-opacity: .01;
+    opacity: .01;
+}
+.ver_upload .upload_anchor{
+    position: relative;
+    z-index: 9;
+}
+.ver_upload .upload_txt{
+    position: absolute;
+    top: -72px;
+    display: block;
+    width: 134px;
+    height: 22px;
+    line-height: 22px;
+    color: #f55;
+}
+.ver_upload .row_btn_one{
+    height: 100px;
+    padding-top: 20px;
+    margin-left: 415px;
+}
+/*上传 end*/
+/*银行信息 [[*/
+.ver_bank{
+    padding-top: 30px;
+}
+.ver_bank .row_btn_one{
+    height: 100px;
+    padding-top: 20px;
+}
+.ver_bank .input_phone{
+    width: 114px;
+}
+.ver_bank .btn_white{
+}
+.ver_tab{
+    position: relative;
+    height: 40px;
+}
+.ver_tab ul{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    font: normal 16px/40px 'Microsoft Yahei';
+    color: #666;
+    background: #f8f8f8;
+    clear: both;
+}
+.ver_tab li{
+    display: block;
+    float: left;
+}
+.ver_tab li.on{
+    background: #fff;
+}
+.ver_tab a{
+    display: block;
+    float: left;
+    padding: 0 66px;
+    color: #666;
+    overflow: hidden;
+}
+.ver_tab .on a{
+    height: 39px;
+    font-weight: bold;
+    color: #39f;
+    border-top: 2px solid #39f;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.ver_tab a:hover{
+    color: #f70;
+    text-decoration: none;
+}
+
+span.title_choose{
+    width: 100%;
+    height: 30px;
+    font: normal 14px/30px 'Microsoft Yahei';
+    color: #666;
+}
+.ver_bank .other-bank {
+    color:#39f;
+    font-size:14px;
+    cursor: pointer;
+}
+.row_way .row_choose i.icon_success_16 {
+    left: 736px;
+}
+.row_way .row_name {
+    height:30px;
+}
+.row_way .down-select input{
+    background: url(../images/module.sprite.png) no-repeat 0 -90px;
+    cursor: pointer;
+}
+#otherBankCon {
+    display: none;
+}
+/*银行信息 ]]*/
+
+/*开户银行所在地 [[*/
+.row_way .input_mod.province {
+    width:105px;
+}
+.row_way .input_mod.city {
+    width:105px;
+}   
+.row_way .down-select .province {
+    background: url(../images/module.sprite.png) no-repeat -132px -90px;
+}
+.row_way .down-select .city {
+    background: url(../images/module.sprite.png) no-repeat -132px -90px;
+}
+#city-error {
+    left:133px;
+}
+/*开户银行所在地 ]]*/
+
+/*成功 [[*/
+.ver_success{
+    padding: 200px 0 230px 0;
+}
+.ver_success p.txt{
+    font: normal 14px/24px \5b8b\4f53;
+    color: #666;
+}
+.ver_success p.txt02{
+	margin-left: 352px;
+	font-size: 14px;
+	color: #ff7700;
+}
+.ver_success p.txt,
+.ver_success .row_btn_one{
+    margin-left: 352px;
+}
+.ver_success .message_info{
+    width: 450px;
+    margin-left: 352px;
+}
+.ver_success .row_btn_one{
+    margin-top: 14px;
+}
+.ver_success .c999{
+    color: #999;
+    font-size: 14px;
+}
+/*成功 ]]*/
+/*打款 [[*/
+.ver_success .row_money{
+    margin: 0 0 25px 352px;
+    font: normal 14px/30px \5b8b\4f53;
+    color: #333;
+}
+.ver_success .row_money .tip{
+    padding-left: 161px;
+    line-height: 20px;
+    font-family: 'Microsoft Yahei';
+    color: #f55;
+}
+.ver_success .input_mod{
+    display: inline;
+    width: 36px;
+    height: 14px;
+    padding: 7px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei';
+    line-height: normal;
+    line-height: 14px\0;
+    border: 1px solid #ccc;
+}
+.ver_success .icon_mt{
+    margin-top: -4px;
+}
+/*打款 ]]*/
+.row_way .hide{
+    display: none;
+}
+.row_way .row_city{
+    overflow: visible;
+    /*z-index: 999;*/
+}
+.row_way .row_city .citybox{
+    margin-left: 404px;
+    *margin-left: 0;
+}
+.row_way .row_city .red{
+    /*margin-left: 404px;*/
+    *margin-left: 0;
+}
+.row_way .row_city div.success{
+    position: relative;
+    display: none !important;
+}
+.row_way .row_city div.show{
+    display: block !important;
+}
+.row_way .row_city i.icon_success_16{
+    position: absolute;
+    top: -30px;
+    left: 670px;
+    *left: 266px;
+}
+.row_way .row_info,
+.ver_bank .row_h85{
+    position: relative;
+}
+.ver_bank .row_h85 .click-down-list {
+    position:absolute;
+    z-index:2;
+    width:30px;
+    height:30px;
+    background:#fff;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    left:226px;
+    top:0;
+    cursor: pointer;
+}
+.row_way .row_info .J_normal_tip,
+.ver_bank .row_h85 .J_normal_tip{
+    position: absolute;
+    top: 30px;
+}
+a.btn_go{
+    float: none;
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+}
+.inlineBlock{
+    display: inline-block;
+}
+
+.id_type {}
+.id_type .row_info {margin-left:404px;*margin-left:0;}
+.id_type .row_list ul {left:0;}
+
+/*反洗钱*/
+.fanxi-h2-control{float:right;margin:10px 20px 0 0;}
+.fanxi-h2-control a{display:inline-block;}
+.fanxi-h2-control .Fanxi-hover{width:60px;height:30px;line-height:30px;text-align:center;color:#fff;background:#4ca5ff;border-radius:4px;overflow:hidden;}
+.fanxi-h2-control .Fanxi-default{width:90px;height:28px;line-height:28px;text-align:center;border:1px solid #ccc;border-radius:4px;color:#666;background:#fff;overflow:hidden;}
+.fanxi-h2-control .Fanxi-hover:hover{background:#3299fe;text-decoration:none;}
+.progress_fanxiqian{width:720px;margin:0 135px;}
+.progress_fanxiqian .progress_load{width:494px;margin-left:128px;}
+.progress_fanxiqian .progress_load_width{width:494px !important;margin:0 !important;overflow:hidden;}
+.row_hr_h3{margin:10px 20px;padding-bottom:5px;font-size:16px;border-bottom:1px dashed #dedede;}
+.color999{color:#999;}
+.fanxi-tip-box{width:910px;padding:20px;margin:0 auto 30px;border:1px dashed #dedede;}
+.fanxi-tip-box h3{margin-bottom:5px;}
+.fanxi-tip-box h3 em{position:relative;top:3px;margin-right:5px;display:inline-block;width:16px;height:16px; background:url(../images/tipsBg.png) no-repeat -155px -70px;}
+.fanxi-tip-box p{line-height:1.9;}
+.J_cancel{font-size:16px !important;font-weight:bold !important;}
+.account_page_wp_result .row_way .row_info{min-height:38px;}
+.fanxi-paper-table{width:950px;margin:20px auto;border:1px solid #e9e9e9;border-left:0;font-size:14px;}
+.fanxi-paper-table td,.fanxi-paper-table th{border-left:1px solid #e9e9e9;padding:6px 0;}
+.fanxi-paper-table th{background:#f8f8f8;color:#666;}
+.fanxi-paper-table td{border-top:1px solid #e9e9e9;text-align:center;}
+.fanxi-paper-table .red{color:#f55;}
+.fanxi-paper-table .green{color:#3cb200;}
+.row_way .red{color:#f55;}
+.row_way .green{color:#3cb200;}
+
+.Fanxi-window-pop{position:fixed;left:50%;margin-left:-185px;top:50%;margin-top:-85px;width:370px;height:170px;border:6px solid #b2b2b2;background:#fff;}
+.Fanxi-window-pop p{font-size:16px;padding:45px 0 25px 0;text-align:center;}
+.Fanxi-window-pop a{float:none;display:block;margin:0 auto;}
+.ver_upload{font-family:'microsoft yahei';}
+.ver_success .fanxi-txt,.ver_success .fanxi-txt-b{width:400px;margin:0 0 15px 352px;}
+.ver_success .fanxi-txt span{color:#999;}
+.ver_success .fanxi-txt-b{font-weight:bold;margin-bottom:-10px;}
+.progress_box .progress_txt{width:190px;}
+
+.ver_upload .a_download{display:block;margin:-10px auto 0;color:#39f;text-align:center;}
+
+
+/** 省份，城市控件 start **/
+.provinceSelector{ background: #fff; text-align:left; left: 404px;*left: 0px; font-size: 12px; }
+.citySelector{ background: #fff; text-align:left; left: 537px;*left: 0px; font-size: 12px; }
+/** 省份，城市控件 end **/
+
+
+/* 下拉选择 */
+.pull-down-list {
+    display:none;
+    max-height:150px;
+    overflow-y: auto;
+    position:absolute;
+    z-index:2;
+    top:29px;
+    left:0;
+    width:254px;
+    background:#fff;
+    border: 1px solid #ccc;
+}
+.pull-down-list li {height:30px;line-height:30px;font-size:12px;padding-left:8px;cursor: pointer;}
+.pull-down-list li:hover {background:#84c0ff;color:#fff;}
+
+
+/***辅助材料infor样式[[***/
+.auxiliary{ position:relative;}
+.auxiliary .upload_name{ padding-bottom:45px;}
+.upload_name_infor{ width:580px; position:absolute; z-index:10;  top:36px;}
+.upload_name_infor p{ color:#999; font-size:12px; line-height:18px;}
+/***]]辅助材料infor样式***/
+
+

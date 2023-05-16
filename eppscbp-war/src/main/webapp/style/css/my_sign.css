@@ -1,0 +1,55 @@
+/*我的签约*/
+.sign_center {
+	margin: 20px auto 0 auto;
+	width: 1188px;
+	border: 1px solid #ececec;
+}
+
+.search-result-wrap {
+	width: 888px;
+}
+
+.menu-item {
+	font-size: 16px;
+	color: #666;
+	font-family: "Microsoft Yahei";
+	overflow: hidden;
+	height: 48px;
+	border-bottom: 1px solid #ececec;
+}
+
+.left-menu li a {
+	display: block;
+	width: 217px;
+	height: 47px;
+	color: #666666;
+	font-size: 16px;
+	background: url(../style/css/images/);
+	text-align: center;
+	line-height: 47px;
+	border-right: 1px solid #fff;
+	position:relative;
+	z-index: 100;
+}
+
+.my-pending-approve .left-menu {
+	position: relative;
+	right: -1px;
+	float: left;
+	width: 218px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.menu-item-txt {
+	margin-top: 16px;
+	float: left;
+	line-height: 18px;
+}
+
+.search-result-wrap {
+	float: left;
+	border-left: 1px solid #eee;
+	padding:10px 0px 65px 40px;
+	width: 933px;
+}

@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+
+@import "platform-common.css";
+
+.top-head-box {
+    margin-bottom: 15px;
+}
+.head-amount-wrap {
+}
+.head-amount-wrap .head-amount-content {
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+    float: left;
+}
+.head-amount-wrap .head-amount-content .num {
+    color: #FF870D;
+}
+.head-amount-wrap .tip-box {
+    float: left;
+    margin-left: 6px;
+    position: relative;
+}
+.head-amount-wrap .tip-box .tip-icon {
+    width: 16px;
+    height: 16px;
+    background: url(../images/icon-little-tip.png) 0 0 no-repeat;
+    margin-top: 7px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.head-amount-wrap .tip-box .tip-pop-box {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 4px;
+    margin-left: 10px;
+    position: relative;
+    display: none;
+}
+.head-amount-wrap .tip-box .tip-pop-box .tip-arrow {
+    position: absolute;
+    pointer-events: none;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    z-index: 1;
+    
+    top: 9px;
+}
+.head-amount-wrap .tip-box .tip-pop-box .tip-arrow.before {
+    left: -5px;
+    border-top: 4px dashed transparent;
+    border-bottom: 4px dashed transparent;
+    border-left: 0 dashed transparent;
+    border-right: 4px solid #ccc;
+}
+.head-amount-wrap .tip-box .tip-pop-box .tip-arrow.after {
+    left: -4px;
+    border-top: 4px dashed transparent;
+    border-bottom: 4px dashed transparent;
+    border-left: 0 dashed transparent;
+    border-right: 4px solid #fff;
+}
+.head-amount-wrap .tip-box .tip-pop-box .tip-pop-cnt {
+    font-size: 12px;
+    color: #333333;
+}
+
+.head-amount-wrap .tip-box:hover .tip-pop-box {
+    display: block;
+}
+.head-ctrl-wrap {
+
+}
+.head-ctrl-wrap .platform-button {
+    float: left;
+    margin-left: 10px;
+    width: 78px;
+    height: 28px;
+    line-height: 28px;
+}
+.head-ctrl-wrap .platform-button .btn-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.head-ctrl-wrap .platform-button .btn-icon.icon-add {
+    background-image: url(../images/icon-add.png);
+}
+.head-ctrl-wrap .platform-button .btn-icon.icon-del {
+    background-image: url(../images/icon-del.png);
+}
+.head-ctrl-wrap .platform-button .btn-icon.icon-import {
+    background-image: url(../images/icon-import.png);
+}
+
+.fund-table-wrap {
+
+}
+.fund-table-wrap .batch-payment-table {
+
+}
+.fund-table-wrap .batch-payment-table .platform-checkbox {
+    vertical-align: middle;
+}
+.fund-table-wrap .table-error-tip {
+    font-size: 14px;
+    color: #FF3535;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.fund-table-wrap .submit-btn {
+    width: 98px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    margin: 20px auto 10px;
+}
+
+
+.add-account-dialog-body {
+    padding: 24px 20px 40px;
+}
+
+.add-account-dialog-body .account-search-form {
+    
+}
+.add-account-dialog-body .account-search-form dl {
+    height: 30px;
+    float: left;
+    margin-bottom: 20px;
+}
+.add-account-dialog-body .account-search-form dt {
+    width: 121px;
+    float: left;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+.add-account-dialog-body .account-search-form dd {
+    float: left;
+    width: 200px;
+    margin-left: 9px;
+    height: 30px;
+}
+.add-account-dialog-body .account-search-form .platform-input {
+    width: 178px;
+}
+.add-account-dialog-body .account-search-form .platform-select {
+    width: 200px;
+}
+.add-account-dialog-body .account-search-form .platform-select .select-input {
+    width: 178px;
+}
+.add-account-dialog-body .account-search-form .platform-select .select-box {
+    width: 198px;
+}
+
+
+.add-account-dialog-body .account-search-form .platform-button {
+    width: 98px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.add-account-dialog-body .platform-scroll-table {
+    max-height: 290px;
+}
+.add-account-dialog-body .platform-scroll-table-head table {
+    
+}
+.add-account-dialog-body .platform-scroll-table-body table {
+    
+}
+.add-account-dialog-body .dialog-ctrl {
+    text-align: center;
+    font-size: 0;
+    margin-top: 40px;
+}
+.add-account-dialog-body .dialog-ctrl .platform-button {
+    display: inline-block;
+    width: 98px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 38px;
+}
+.add-account-dialog-body .dialog-ctrl .platform-button.mr {
+    margin-right: 20px;
+}
+.add-account-dialog-body .platform-scroll-table .platform-checkbox {
+    vertical-align: middle;
+}
+
+
+
+.inf-confirm-dialog-body {
+    padding: 20px 20px 40px;
+}
+.inf-confirm-dialog-body .inf-tip-txt {
+    font-size: 14px;
+    color: #FF8000;
+    text-align: center;
+    margin-top: 12px;
+    line-height: 14px;
+}
+.inf-confirm-dialog-body .dialog-ctrl {
+    text-align: center;
+    font-size: 0;
+    margin-top: 14px;
+}
+.inf-confirm-dialog-body .dialog-ctrl .platform-button {
+    display: inline-block;
+    width: 98px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 38px;
+}
+.inf-confirm-dialog-body .dialog-ctrl .platform-button.mr {
+    margin-right: 20px;
+}

@@ -1,0 +1,52 @@
+{
+	"list": [
+		{
+			"centerName": "金融账务核心产品研发中心",
+			"centerOwner": "郭宏文",
+			"centerShortName": "FAEPC",
+			"currentPage": 0,
+			"operTime": 1502696012000,
+			"operator": "admin1",
+			"ownerMailbox": "14050269@cnsuning.com",
+			"ownerPhone": "18551601328"
+		}, {
+			"centerName": "金融会员及营销产品研发中心",
+			"centerOwner": "刘涛",
+			"centerShortName": "EMMC",
+			"currentPage": 0,
+			"operTime": 1502695803000,
+			"operator": "admin",
+			"ownerMailbox": "12120954@cnsuning.com",
+			"ownerPhone": "18651661897"
+		}, {
+			"centerName": "清结算产品研发中心",
+			"centerOwner": "赵建勋",
+			"centerShortName": "CSPC",
+			"currentPage": 0,
+			"operTime": 1502695771000,
+			"operator": "admin",
+			"ownerMailbox": "03070127@cnsuning.com",
+			"ownerPhone": "18651665579"
+		}, {
+			"centerName": "金服集团大数据中心应用开发部",
+			"centerOwner": "徐志欣",
+			"centerShortName": "BIGDATA",
+			"currentPage": 0,
+			"operTime": 1502695738000,
+			"operator": "admin",
+			"ownerMailbox": "14061191@cnsuning.com",
+			"ownerPhone": "13505193698"
+		}, {
+			"centerName": "支付平台产品研发中心",
+			"centerOwner": "肖军",
+			"centerShortName": "APPLY",
+			"currentPage": 0,
+			"operTime": 1502695705000,
+			"operator": "admin",
+			"ownerMailbox": "15091149@cnsuning.com",
+			"ownerPhone": "18512581862"
+		}
+	],
+	"success": true,
+	"totalCount": 0
+}

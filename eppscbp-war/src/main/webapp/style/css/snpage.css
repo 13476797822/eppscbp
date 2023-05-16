@@ -1,0 +1,129 @@
+/* 分页 start */
+.m-paginate {
+    height:26px;
+    float:right;
+}
+.m-paginate .previous{
+    position: relative;
+    width:63px;
+    height:24px;
+    border: 1px solid #CCC;
+    line-height: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.m-paginate .previous-disabled, .m-paginate .next-disabled{
+    border: 1px solid #CCC;
+    color:#999;
+}
+.m-paginate .previous i {
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    top:7px;
+    left:5px;
+    border: 5px solid #FFF;
+    border-right-color: #999;
+    cursor: pointer;
+}
+.m-paginate .previous-disabled i{
+    border-right-color: #CCC;
+}
+.m-paginate .page span{
+    float:left;
+}
+.m-paginate .page-num{
+    margin-right: 5px;
+    cursor: pointer;
+    width:24px;
+    height:24px;
+    line-height: 24px;
+    text-align: center;
+    border:1px solid #CCC;
+    font-family: "Arial";
+    font-size: 12px;
+    color:#333;
+}
+.m-paginate .current{
+    width:26px;
+    height:26px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 5px;
+    color:#ffab19;;
+}
+.m-paginate .hover{
+    color:#FF9500;
+}
+.m-paginate .ellipsis{
+    margin-right: 5px;
+    width:16px;
+    height:26px;
+    line-height: 20px;
+    text-align: center;
+}
+.m-paginate .next{
+    position: relative;
+    width:63px;
+    height:24px;
+    border: 1px solid #CCC;
+    line-height: 24px;
+    cursor: pointer;
+    margin-right: 26px;
+}
+.m-paginate .next i{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    top:7px;
+    right:3px;
+    border: 5px solid #FFF;
+    border-left-color: #999;
+    cursor: pointer;
+}
+.m-paginate .next-disabled i{
+    border-left-color: #CCC;
+}
+.m-paginate .jump-to-num {
+    margin-right: 8px;
+    height:22px;
+    width:26px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.m-paginate .jump {
+    cursor: pointer;
+    height:24px;
+    width:48px;
+    border:1px solid #CCC;
+    line-height: 24px;
+    text-align: center;
+}
+.paginate-txt{
+    height:26px;
+    line-height: 26px;
+
+}
+.ml20 {
+    margin-left: 20px;
+}
+.mr20 {
+    margin-right: 20px;
+}
+.mr7 {
+    margin-right: 7px;
+}
+/* 分页 end */
+
+.wait-wrap {
+    text-align: center;
+}
+
+.empty-info {
+    margin: 0 auto;
+}
